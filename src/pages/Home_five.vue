@@ -23,7 +23,7 @@
         <TestimonialFour testimonialStyle="testimonial-five" />
 
         <!-- team section -->
-        <TeamDoctor />
+        <TeamCharacter />
 
         <!-- download section -->
         <DownloadFour />
@@ -57,7 +57,7 @@
     import CounterUpTwo from '../components/CounterUpTwo'
     import Service from '../components/Service'
     import TestimonialFour from '../components/TestimonialFour'
-    import TeamDoctor from '../components/TeamDoctor'
+    import TeamCharacter from '../components/TeamCharacter'
     import DownloadFour from '../components/DownloadFour'
     import Policy from '../components/Policy'
     import CallToAction from '../components/CallToAction'
@@ -76,7 +76,7 @@
             CounterUpTwo,
             Service,
             TestimonialFour,
-            TeamDoctor,
+            TeamCharacter,
             DownloadFour,
             Policy,
             CallToAction,

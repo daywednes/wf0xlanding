@@ -56,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom light-blue-bg" :class="FooterStyle">
+        <!-- <div class="footer-bottom light-blue-bg" :class="FooterStyle">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 order-2 order-md-1">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </footer>
 </template>
 
@@ -97,4 +97,10 @@ export default {
 <style lang='scss'>
     @import '../assets/scss/variables.scss';
     @import '../assets/scss/components/footer.scss';
+
+    .widget-title{
+        color: white;
+    }
+ 
+
 </style>

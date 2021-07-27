@@ -19,13 +19,12 @@
               class="hero-slider-item"
             >
               <div class="row align-items-center">
-                <div class="col-xl-7 col-lg-7 col-md-7">
+                <div class="col-xl-5 col-lg-5 col-md-5">
                   <div class="slider-content">
                     <div class="slider-title">
                       <img
                         :src="slider.logo"
                         alt="slider logo"
-                        style="width:60%;"
                       />
                     </div>
                     <!-- <h6 class="slider-subtitle">{{ slider.subtitle }}</h6>
@@ -36,7 +35,7 @@
                     </div> -->
                   </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-md-5">
+                <div class="col-xl-7 col-lg-7 col-md-7">
                   <div class="slider-thumb">
                     <img :src="slider.sliderThumb" alt="slider thumb" />
                   </div>

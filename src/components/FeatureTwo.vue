@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title title-style-2">
-                        <h2 class="title">AWESOME FEATURES</h2>
+                        <h2 class="title">ROAD MAP</h2>
                         <p class="paragraph">Claritas est etiam processus dynamicus, qui sequitur mutationem<br> consuetudium lectorum.</p>
                     </div>
                 </div>

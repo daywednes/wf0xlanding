@@ -6,33 +6,32 @@
     <!-- slider section -->
     <HeroBannerFive />
     <!-- about app -->
-    <div class="wf-container">
+    <section id="blog" class="wf-container">
       <Blog />
       <!-- screenshotTwo section -->
       <ScreenshotTwo />
-    </div>
+      <MiniGame />
+      <Fusion />
+    </section>
     <!-- <CounterUpTwo /> -->
+    <!-- team character -->
+    <TeamCharacter />
 
     <!-- Service style -->
-    <Service />
+    <!-- <Service /> -->
+    <FeatureTwo />
+
+
 
     <!-- Testimonial section -->
-    <TestimonialFour testimonialStyle="testimonial-five" />
-
-    <!-- team section -->
-    <TeamDoctor />
+    <!-- <TestimonialFour testimonialStyle="testimonial-five" /> -->
 
     <!-- download section -->
-    <DownloadFour />
+    <!-- <DownloadFour /> -->
 
     <!-- policy section -->
-    <Policy />
+    <!-- <Policy /> -->
 
-    <!-- call to action -->
-    <CallToAction />
-
-    <!-- department section -->
-    <Department />
 
     <!-- google map section -->
     <!-- <GoogleMap /> -->
@@ -45,17 +44,18 @@
 <script>
 import NavbarTwo from "../components/NavbarTwo";
 import ScreenshotTwo from "../components/ScreenshotTwo";
+import MiniGame from "../components/MiniGame";
+import Fusion from "../components/Fusion";
 import HeroBannerFive from "../components/HeroBannerFive";
 // import MedicalInfo from "../components/MedicalInfo";
 // import Appointment from "../components/Appointment";
 // import CounterUpTwo from "../components/CounterUpTwo";
-import Service from "../components/Service";
-import TestimonialFour from "../components/TestimonialFour";
-import TeamDoctor from "../components/TeamDoctor";
-import DownloadFour from "../components/DownloadFour";
-import Policy from "../components/Policy";
-import CallToAction from "../components/CallToAction";
-import Department from "../components/Department";
+// import Service from "../components/Service";
+import FeatureTwo from "../components/FeatureTwo";
+// import TestimonialFour from "../components/TestimonialFour";
+import TeamCharacter from "../components/TeamCharacter";
+// import DownloadFour from "../components/DownloadFour";
+// import Policy from "../components/Policy";
 import Blog from "../components/Blog";
 // import GoogleMap from "../components/GoogleMap";
 import FooterTwo from "../components/FooterTwo";
@@ -64,18 +64,19 @@ export default {
   name: "app",
   components: {
     ScreenshotTwo,
+    MiniGame,
+    Fusion,
     NavbarTwo,
     HeroBannerFive,
     // MedicalInfo,
     // Appointment,
     // CounterUpTwo,
-    Service,
-    TestimonialFour,
-    TeamDoctor,
-    DownloadFour,
-    Policy,
-    CallToAction,
-    Department,
+    // Service,
+    FeatureTwo,
+    // TestimonialFour,
+    TeamCharacter,
+    // DownloadFour,
+    // Policy,
     Blog,
     // GoogleMap,
     FooterTwo,

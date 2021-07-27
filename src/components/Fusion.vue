@@ -2,44 +2,25 @@
   <div
     class="screenshot-style-2 bg-cover section"
   >
-    <div class="container">
+    <div class="container"> 
       <div class="row">
-        <div class="col-12">
-          <div class="screenshot-gallery text-center">
-            <swiper :options="swiperOption">
-              <swiper-slide>
-                <div class="scr-thumb">
-                  <img
-                    src="../assets/img/wf0x/feature/card1.png"
-                    alt="screenshot thumb"
-                  />
-                </div>
-              </swiper-slide>
-              <swiper-slide>
-                <div class="scr-thumb">
-                  <img
-                    src="../assets/img/wf0x/feature/card2.png"
-                    alt="screenshot thumb"
-                  />
-                </div>
-              </swiper-slide>
-              <!-- Optional controls -->
-              <div class="swiper-button-prev" slot="button-prev"></div>
-              <div class="swiper-button-next" slot="button-next"></div>
-            </swiper>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
+        <div class="col-8 mx-auto">
           <div class="text-center">
-            <h1 class="title" style="color:yellow">GAME TOURNAMENT</h1>
+            <h1 class="title" style="color:yellow">FUSION</h1>
             <p class="header-detail text-center">
               “Game tournament is win-lose by game formula(addition current
               performance if any). There are weekly, monthly, world tournaments
               and grouping users in different groups based on their strength.”
             </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-8 mx-auto">
+          <div class="screenshot-gallery text-center">
+           <img  src="../assets/img/wf0x/feature/L4.png"
+                    alt="screenshot thumb"
+                  />
           </div>
         </div>
       </div>

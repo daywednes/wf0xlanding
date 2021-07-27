@@ -24,17 +24,17 @@
                   >Home</a
                 >
               </li>
-              <li><a v-on:click="close_menu()" href="#blog">FEATURE</a></li>
-              <li><a v-on:click="close_menu()" href="#service">Service</a></li>
-              <li>
+              <li><a v-on:click="close_menu()" href="#blog">Feature</a></li>
+              <li><a v-on:click="close_menu()" href="#team">Character</a></li>
+              <li><a v-on:click="close_menu()" href="#feature">Road Map</a></li>
+              <!-- <li>
                 <a v-on:click="close_menu()" href="#review">Testimonial</a>
               </li>
-              <li><a v-on:click="close_menu()" href="#team">Team</a></li>
               <li>
                 <a v-on:click="close_menu()" href="#department">Department</a>
-              </li>
-              <li><a v-on:click="close_menu()" href="#support">Support</a></li>
-              <li class="play-btn"><a href="#home">Play</a></li>
+              </li> -->
+              <!-- <li><a v-on:click="close_menu()" href="#support">Support</a></li> -->
+              <li class="play-btn"><a href="#home" style="color: black !important;">Play</a></li>
             </ul>
           </div>
         </div>
@@ -141,7 +141,6 @@ export default {
       window.onscroll = function() {
         var scrollPosition =
           document.documentElement.scrollTop || document.body.scrollTop;
-
         for (i in sections) {
           if (sections[i] && sections[i] <= scrollPosition) {
             document.querySelector(".activee").setAttribute("class", " ");
@@ -165,7 +164,8 @@ export default {
   height: 80px;
 }
 .play-btn {
-  background: orange;
+  background: rgb(255,149,0);
+  background: linear-gradient(0deg, rgba(255,149,0,1) 23%, rgba(255,226,0,1) 100%);
   width: 100px;
   text-align: center;
 }
