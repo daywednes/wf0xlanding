@@ -128,7 +128,7 @@ export default {
   color: white !important;
   padding: 10px 70px;
   margin: 10px 0px;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .header-detail {

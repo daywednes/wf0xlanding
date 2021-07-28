@@ -29,13 +29,8 @@
                 <a v-on:click="close_menu()" href="#character">Character</a>
               </li>
               <li><a v-on:click="close_menu()" href="#roadmap">Road Map</a></li>
-              <!-- <li><a v-on:click="close_menu()" href="#tokenView">Token</a></li> -->
-              <!-- <li>
-                <a v-on:click="close_menu()" href="#review">Testimonial</a>
-              </li>
-              <li>
-                <a v-on:click="close_menu()" href="#department">Department</a>
-              </li> -->
+              <li><a v-on:click="close_menu()" href="#tokenView">Token</a></li>
+              <li><a v-on:click="close_menu()" href="#wfteam">Team</a></li>
               <!-- <li><a v-on:click="close_menu()" href="#support">Support</a></li> -->
               <li class="play-btn">
                 <a href="#home" style="color: black !important;">Play</a>
@@ -139,7 +134,6 @@ export default {
       if (!section) {
         section = document.querySelectorAll(".main-container > * > *");
       }
-      console.log(section)
       var sections = {};
       var i = 0;
 

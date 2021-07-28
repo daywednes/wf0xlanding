@@ -1,5 +1,5 @@
 <template>
-  <div class="latest-blog-area section-padding" id="tokenView">
+  <div class="latest-blog-area">
     <div class="container" style="height: 100%">
       <div class="row">
         <div class="col-12">
@@ -11,7 +11,11 @@
               <!-- <h1 style="color: yellow; overflow-wrap: anywhere;">
                   LIVE TOURNAMENT
                 </h1> -->
-              <img src="../assets/img/wf0x/token1.png" alt="doctor thumb" />
+              <img
+                src="../assets/img/wf0x/token1.png"
+                alt="doctor thumb"
+                style="padding:50px;"
+              />
               <p class="header-detail text-center" style="padding:50px;">
                 “F0x token is the main in-game currency. It will be used for
                 trading, exchanging, improving the Pets and their special

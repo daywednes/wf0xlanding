@@ -2,14 +2,14 @@
   <section class="about-area section-padding section" :class="AboutStyle">
     <div class="container">
       <div class="header-content">
-        <h2 style="color:white;">TOKEN ECONOMICS</h2>
+        <h2 style="color:white;">TEAM</h2>
       </div>
       <div class="row">
         <!-- single item start -->
         <div
           v-for="(about, abouts) in abouts"
           :key="abouts"
-          class="col-lg-6 col-md-6"
+          class="col-lg-3 col-md-6"
         >
           <div class="about-item">
             <img :src="about.img" />
@@ -39,28 +39,56 @@ export default {
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-pagelines",
-          img: require("../assets/img/wf0x/token/tk1.png"),
+          img: require("../assets/img/wf0x/team/team-avar.png"),
         },
         {
           title: "FULL RESPONSIVE",
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-laptop",
-          img: require("../assets/img/wf0x/token/tk2.png"),
+          img: require("../assets/img/wf0x/team/team-avar.png"),
         },
         {
           title: "RETINA READY",
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-apple",
-          img: require("../assets/img/wf0x/token/tk3.png"),
+          img: require("../assets/img/wf0x/team/team-avar.png"),
         },
         {
           title: "UNIQUE DESIGN",
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-paint-brush",
-          img: require("../assets/img/wf0x/token/tk4.png"),
+          img: require("../assets/img/wf0x/team/team-avar.png"),
+        },
+        {
+          title: "BUILD SHOWCASE",
+          desc:
+            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          icon: "fa fa-pagelines",
+          img: require("../assets/img/wf0x/team/team-avar.png"),
+        },
+        {
+          title: "FULL RESPONSIVE",
+          desc:
+            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          icon: "fa fa-laptop",
+          img: require("../assets/img/wf0x/team/team-avar.png"),
+        },
+        {
+          title: "RETINA READY",
+          desc:
+            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          icon: "fa fa-apple",
+          img: require("../assets/img/wf0x/team/team-avar.png"),
+        },
+        {
+          title: "UNIQUE DESIGN",
+          desc:
+            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          icon: "fa fa-paint-brush",
+          img: require("../assets/img/wf0x/team/team-avar.png"),
         },
       ],
     };

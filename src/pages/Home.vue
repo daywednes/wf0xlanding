@@ -13,9 +13,16 @@
     </section>
 
     <TeamCharacter class="div-shadow" />
-    <section id="roadmap" class="wf-container div-shadow">
+    <section id="roadmap" class="wf-container2 div-shadow">
       <FeatureTwo />
+    </section>
+
+    <section id="tokenView" class="wf-container4 div-shadow">
       <TokenView />
+      <About />
+    </section>
+    <section id="wfteam" class="wf-container3 div-shadow">
+      <WFTeam />
     </section>
     <FooterTwo />
   </div>
@@ -30,6 +37,8 @@ import HeroBannerFive from "../components/HeroBannerFive";
 import FeatureTwo from "../components/FeatureTwo";
 import TeamCharacter from "../components/TeamCharacter";
 import Blog from "../components/Blog";
+import About from "../components/About";
+import WFTeam from "../components/WFTeam";
 import TokenView from "../components/TokenView";
 import FooterTwo from "../components/FooterTwo";
 
@@ -44,6 +53,8 @@ export default {
     FeatureTwo,
     TeamCharacter,
     Blog,
+    About,
+    WFTeam,
     TokenView,
     FooterTwo,
   },
@@ -53,6 +64,24 @@ export default {
 .wf-container {
   background-image: url("../assets/img/wf0x/background-2.png");
   /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wf-container2 {
+  background-image: url("../assets/img/wf0x/BG3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wf-container3 {
+  background-image: url("../assets/img/wf0x/BG4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wf-container4 {
+  background-image: url("../assets/img/wf0x/BG5.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
