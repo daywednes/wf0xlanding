@@ -1,5 +1,8 @@
 <template>
-  <section class="slider-section slider-style-5 section bgimg" id="home">
+  <section
+    class="slider-section slider-style-5 section bgimg div-shadow"
+    id="home"
+  >
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -10,7 +13,7 @@
             :dots="false"
             :loop="true"
             :autoplay="true"
-            :smartSpeed="3000"
+            :smartSpeed="5000"
           >
             <!-- single slider item -->
             <div
@@ -22,10 +25,7 @@
                 <div class="col-xl-5 col-lg-5 col-md-5">
                   <div class="slider-content">
                     <div class="slider-title">
-                      <img
-                        :src="slider.logo"
-                        alt="slider logo"
-                      />
+                      <img :src="slider.logo" alt="slider logo" />
                     </div>
                     <!-- <h6 class="slider-subtitle">{{ slider.subtitle }}</h6>
                     <h2 class="slider-title">{{ slider.sliderTitle }}</h2>
@@ -142,5 +142,12 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 3%;
+}
+
+.div-shadow {
+  -moz-box-shadow: inset 0 0 -20px #0c1e46;
+  -webkit-box-shadow: inset 0 0 -20px #0c1e46;
+  box-shadow: inset 0 0 -20px #0c1e46;
 }
 </style>

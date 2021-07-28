@@ -5,38 +5,18 @@
 
     <!-- slider section -->
     <HeroBannerFive />
-    <!-- about app -->
-    <section id="blog" class="wf-container">
+    <section id="feature" class="wf-container div-shadow">
       <Blog />
-      <!-- screenshotTwo section -->
       <ScreenshotTwo />
       <MiniGame />
       <Fusion />
     </section>
-    <!-- <CounterUpTwo /> -->
-    <!-- team character -->
-    <TeamCharacter />
 
-    <!-- Service style -->
-    <!-- <Service /> -->
-    <FeatureTwo />
-
-
-
-    <!-- Testimonial section -->
-    <!-- <TestimonialFour testimonialStyle="testimonial-five" /> -->
-
-    <!-- download section -->
-    <!-- <DownloadFour /> -->
-
-    <!-- policy section -->
-    <!-- <Policy /> -->
-
-
-    <!-- google map section -->
-    <!-- <GoogleMap /> -->
-
-    <!-- footer section -->
+    <TeamCharacter class="div-shadow" />
+    <section id="roadmap" class="wf-container div-shadow">
+      <FeatureTwo />
+      <TokenView />
+    </section>
     <FooterTwo />
   </div>
 </template>
@@ -47,17 +27,10 @@ import ScreenshotTwo from "../components/ScreenshotTwo";
 import MiniGame from "../components/MiniGame";
 import Fusion from "../components/Fusion";
 import HeroBannerFive from "../components/HeroBannerFive";
-// import MedicalInfo from "../components/MedicalInfo";
-// import Appointment from "../components/Appointment";
-// import CounterUpTwo from "../components/CounterUpTwo";
-// import Service from "../components/Service";
 import FeatureTwo from "../components/FeatureTwo";
-// import TestimonialFour from "../components/TestimonialFour";
 import TeamCharacter from "../components/TeamCharacter";
-// import DownloadFour from "../components/DownloadFour";
-// import Policy from "../components/Policy";
 import Blog from "../components/Blog";
-// import GoogleMap from "../components/GoogleMap";
+import TokenView from "../components/TokenView";
 import FooterTwo from "../components/FooterTwo";
 
 export default {
@@ -68,22 +41,15 @@ export default {
     Fusion,
     NavbarTwo,
     HeroBannerFive,
-    // MedicalInfo,
-    // Appointment,
-    // CounterUpTwo,
-    // Service,
     FeatureTwo,
-    // TestimonialFour,
     TeamCharacter,
-    // DownloadFour,
-    // Policy,
     Blog,
-    // GoogleMap,
+    TokenView,
     FooterTwo,
   },
 };
 </script>
-<style scoped>
+<style>
 .wf-container {
   background-image: url("../assets/img/wf0x/background-2.png");
   /* background-position: center; */

@@ -228,11 +228,12 @@
     }
     .content {
         .feature-title {
-            font-size: 13px;
+            font-size: 18px;
             font-weight: 800;
             padding-top: 14px;
             padding-bottom: 18px;
             text-transform: uppercase;
+            color: yellow;
         }
         .feature-title {
             @media #{$sm-device} {
@@ -240,8 +241,9 @@
             }
         }
         p {
-            font-size: 13px;
-            color: $paragraph-light;
+            font-size: 16px;
+            // color: $paragraph-light;
+            color: white;
         }
     }
     &:hover {

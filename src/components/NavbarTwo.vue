@@ -24,9 +24,12 @@
                   >Home</a
                 >
               </li>
-              <li><a v-on:click="close_menu()" href="#blog">Feature</a></li>
-              <li><a v-on:click="close_menu()" href="#team">Character</a></li>
-              <li><a v-on:click="close_menu()" href="#feature">Road Map</a></li>
+              <li><a v-on:click="close_menu()" href="#feature">Feature</a></li>
+              <li>
+                <a v-on:click="close_menu()" href="#character">Character</a>
+              </li>
+              <li><a v-on:click="close_menu()" href="#roadmap">Road Map</a></li>
+              <!-- <li><a v-on:click="close_menu()" href="#tokenView">Token</a></li> -->
               <!-- <li>
                 <a v-on:click="close_menu()" href="#review">Testimonial</a>
               </li>
@@ -34,7 +37,9 @@
                 <a v-on:click="close_menu()" href="#department">Department</a>
               </li> -->
               <!-- <li><a v-on:click="close_menu()" href="#support">Support</a></li> -->
-              <li class="play-btn"><a href="#home" style="color: black !important;">Play</a></li>
+              <li class="play-btn">
+                <a href="#home" style="color: black !important;">Play</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -131,6 +136,10 @@ export default {
     //scroll spy js
     window.addEventListener("load", function() {
       var section = document.querySelectorAll(".main-container > *");
+      if (!section) {
+        section = document.querySelectorAll(".main-container > * > *");
+      }
+      console.log(section)
       var sections = {};
       var i = 0;
 
@@ -142,13 +151,11 @@ export default {
         var scrollPosition =
           document.documentElement.scrollTop || document.body.scrollTop;
         for (i in sections) {
-          if (sections[i] && sections[i] <= scrollPosition) {
+          if (sections[i] <= scrollPosition) {
             document.querySelector(".activee").setAttribute("class", " ");
-            if (document) {
-              document
-                .querySelector("a[href*=" + i + "]")
-                .setAttribute("class", "activee");
-            }
+            document
+              .querySelector("a[href*=" + i + "]")
+              .setAttribute("class", "activee");
           }
         }
       };
@@ -164,8 +171,12 @@ export default {
   height: 80px;
 }
 .play-btn {
-  background: rgb(255,149,0);
-  background: linear-gradient(0deg, rgba(255,149,0,1) 23%, rgba(255,226,0,1) 100%);
+  background: rgb(255, 149, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 149, 0, 1) 23%,
+    rgba(255, 226, 0, 1) 100%
+  );
   width: 100px;
   text-align: center;
 }
