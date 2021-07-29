@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: "About",
+  name: "TokenEconmics",
   props: ["AboutStyle"],
   data() {
     return {

@@ -21,14 +21,14 @@
               <li>
                 <a @click="close_menu()" href="#home" class="activee">Home</a>
               </li>
-              <li><a @click="close_menu()" href="#about">About</a></li>
+              <li><a @click="close_menu()" href="#about">TokenEconmics</a></li>
               <li><a @click="close_menu()" href="#service">Service</a></li>
               <li><a @click="close_menu()" href="#pricing">Pricing</a></li>
               <li><a @click="close_menu()" href="#review">Testimonial</a></li>
               <li>
                 <a @click="close_menu()" href="#chooseus">Why Choose Us</a>
               </li>
-              <li><a @click="close_menu()" href="#blog">Blog</a></li>
+              <li><a @click="close_menu()" href="#blog">LiveTournament</a></li>
             </ul>
           </div>
         </div>

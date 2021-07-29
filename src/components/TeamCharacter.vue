@@ -26,7 +26,6 @@
             :autoplay="true"
             :margin="40"
             :loop="true"
-            :smartSpeed="3000"
             :responsive="{
               0: { items: 1 },
               576: { items: 2 },
@@ -42,7 +41,7 @@
                 <img
                   :src="doctor.thumb"
                   alt="doctor thumb"
-                  style="max-height:650px;max-width:200px; margin: auto;"
+                  style="max-height:600px;max-width:180px; margin: auto;"
                 />
                 <div class="doctor-content">
                   <h6 class="title">{{ doctor.title }}</h6>

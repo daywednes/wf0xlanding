@@ -31,7 +31,7 @@
         <!-- call to action section -->
         <Cta />
 
-        <!-- Blog section -->
+        <!-- LiveTournament section -->
         <BlogTwo />
 
         <!-- google map section -->

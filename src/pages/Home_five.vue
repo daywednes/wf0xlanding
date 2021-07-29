@@ -37,8 +37,8 @@
         <!-- department section -->
         <Department />
 
-        <!-- Blog section -->
-        <Blog />
+        <!-- LiveTournament section -->
+        <LiveTournament />
 
         <!-- google map section -->
         <GoogleMap />
@@ -62,7 +62,7 @@
     import Policy from '../components/Policy'
     import CallToAction from '../components/CallToAction'
     import Department from '../components/Department'
-    import Blog from '../components/Blog'
+    import LiveTournament from '../components/LiveTournament'
     import GoogleMap from '../components/GoogleMap'
     import FooterTwo from '../components/FooterTwo'
 
@@ -81,7 +81,7 @@
             Policy,
             CallToAction,
             Department,
-            Blog,
+            LiveTournament,
             GoogleMap,
             FooterTwo,
         }

@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "Blog",
+  name: "LiveTournament",
   data() {
     return {
       blogs: [

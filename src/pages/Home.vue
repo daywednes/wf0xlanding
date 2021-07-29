@@ -6,20 +6,21 @@
     <!-- slider section -->
     <HeroBannerFive />
     <section id="feature" class="wf-container div-shadow">
-      <Blog />
-      <ScreenshotTwo />
+      <LiveTournament />
+      <GameTournament />
       <MiniGame />
       <Fusion />
     </section>
 
     <TeamCharacter class="div-shadow" />
-    <section id="roadmap" class="wf-container2 div-shadow">
-      <FeatureTwo />
+    
+    <section id="roadmap" class="wf-container div-shadow">
+      <RoadMap />
     </section>
 
     <section id="tokenView" class="wf-container4 div-shadow">
       <TokenView />
-      <About />
+      <TokenEconmics />
     </section>
     <section id="wfteam" class="wf-container3 div-shadow">
       <WFTeam />
@@ -30,14 +31,14 @@
 
 <script>
 import NavbarTwo from "../components/NavbarTwo";
-import ScreenshotTwo from "../components/ScreenshotTwo";
+import GameTournament from "../components/GameTournament";
 import MiniGame from "../components/MiniGame";
 import Fusion from "../components/Fusion";
 import HeroBannerFive from "../components/HeroBannerFive";
-import FeatureTwo from "../components/FeatureTwo";
+import RoadMap from "../components/RoadMap";
 import TeamCharacter from "../components/TeamCharacter";
-import Blog from "../components/Blog";
-import About from "../components/About";
+import LiveTournament from "../components/LiveTournament";
+import TokenEconmics from "../components/TokenEconmics";
 import WFTeam from "../components/WFTeam";
 import TokenView from "../components/TokenView";
 import FooterTwo from "../components/FooterTwo";
@@ -45,15 +46,15 @@ import FooterTwo from "../components/FooterTwo";
 export default {
   name: "app",
   components: {
-    ScreenshotTwo,
+    GameTournament,
     MiniGame,
     Fusion,
     NavbarTwo,
     HeroBannerFive,
-    FeatureTwo,
+    RoadMap,
     TeamCharacter,
-    Blog,
-    About,
+    LiveTournament,
+    TokenEconmics,
     WFTeam,
     TokenView,
     FooterTwo,
@@ -69,7 +70,7 @@ export default {
 }
 .wf-container2 {
   background-image: url("../assets/img/wf0x/BG3.png");
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -84,5 +85,11 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.div-shadow {
+  -moz-box-shadow: inset 0 0 -20px #0c1e46;
+  -webkit-box-shadow: inset 0 0 -20px #0c1e46;
+  box-shadow: inset 0 0 -20px #0c1e46;
 }
 </style>

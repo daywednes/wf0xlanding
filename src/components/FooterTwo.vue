@@ -9,7 +9,7 @@
               <div class="widget-body">
                 <ul class="widget-info">
                   <li>
-                    <strong>Adddress :</strong
+                    <strong>Adddress:</strong
                     ><span>40 Sreet 133/2 NewYork City,United States.</span>
                   </li>
                   <li><strong>Phone :</strong>(+800) 123 456 789</li>
@@ -66,7 +66,7 @@
         </div>
       </div>
     </div>
-    <!-- <div class="footer-bottom light-blue-bg" :class="FooterStyle">
+    <div class="footer-bottom" :class="FooterStyle">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 order-2 order-md-1">
@@ -76,14 +76,14 @@
                     </div>
                     <div class="col-md-6 order-1 order-md-2">
                         <div class="useful-link">
-                            <a href="#">Our Team</a>
+                            <!-- <a href="#">Our Team</a>
                             <a href="#">Sight Map</a>
-                            <a href="#">Sign In</a>
+                            <a href="#">Sign In</a> -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
   </footer>
 </template>
 

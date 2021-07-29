@@ -1,5 +1,5 @@
 <template>
-  <div class="latest-blog-area">
+  <div class="latest-blog-area section-padding">
     <div class="container" style="height: 100%">
       <div class="row">
         <div class="col-12">
@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: "Blog",
+  name: "LiveTournament",
   data() {
     return {
       blogs: [

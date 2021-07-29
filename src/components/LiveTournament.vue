@@ -12,11 +12,13 @@
                 <h1 style="color: yellow; overflow-wrap: anywhere;">
                   LIVE TOURNAMENT
                 </h1>
+                <br />
                 <img
                   src="../assets/img/wf0x/character/c1.png"
                   alt="doctor thumb"
+                  style="max-height:600px;max-width:180px; margin: auto;"
                 />
-                <p class="header-detail text-center" style="padding:50px;">
+                <p class="header-detail text-center" style="padding:30px;">
                   “Live tournament place base on real league (Premier League,
                   Euro, World Cup,...) and evaluated based on the players'
                   actual performance during the season and according to a scale
@@ -66,7 +68,7 @@
 
 <script>
 export default {
-  name: "Blog",
+  name: "LiveTournament",
   data() {
     return {
       blogs: [

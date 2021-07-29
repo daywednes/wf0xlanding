@@ -33,7 +33,11 @@
               <li><a v-on:click="close_menu()" href="#wfteam">Team</a></li>
               <!-- <li><a v-on:click="close_menu()" href="#support">Support</a></li> -->
               <li class="play-btn">
-                <a href="#home" style="color: black !important;">Play</a>
+                <a
+                  @click="goTo('/coming-soon')"
+                  style="color: black !important;"
+                  >Play</a
+                >
               </li>
             </ul>
           </div>
@@ -55,6 +59,9 @@ export default {
     };
   },
   methods: {
+    goTo: function(url) {
+      this.$router.push(url);
+    },
     // responsive menu script
     display_menu: function() {
       var body = document.getElementsByTagName("body")[0];
@@ -131,9 +138,6 @@ export default {
     //scroll spy js
     window.addEventListener("load", function() {
       var section = document.querySelectorAll(".main-container > *");
-      if (!section) {
-        section = document.querySelectorAll(".main-container > * > *");
-      }
       var sections = {};
       var i = 0;
 
@@ -145,7 +149,7 @@ export default {
         var scrollPosition =
           document.documentElement.scrollTop || document.body.scrollTop;
         for (i in sections) {
-          if (sections[i] <= scrollPosition) {
+          if (sections[i] <= scrollPosition + 120) {
             document.querySelector(".activee").setAttribute("class", " ");
             document
               .querySelector("a[href*=" + i + "]")

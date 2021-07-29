@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: "FeatureTwo",
+  name: "RoadMap",
   data() {
     return {
       bgImg: {

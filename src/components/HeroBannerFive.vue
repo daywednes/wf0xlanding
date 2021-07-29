@@ -13,7 +13,6 @@
             :dots="false"
             :loop="true"
             :autoplay="true"
-            :smartSpeed="5000"
           >
             <!-- single slider item -->
             <div
@@ -143,11 +142,5 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 3%;
-}
-
-.div-shadow {
-  -moz-box-shadow: inset 0 0 -20px #0c1e46;
-  -webkit-box-shadow: inset 0 0 -20px #0c1e46;
-  box-shadow: inset 0 0 -20px #0c1e46;
 }
 </style>

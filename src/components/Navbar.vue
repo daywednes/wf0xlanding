@@ -27,7 +27,7 @@
                   >Home</a
                 >
               </li>
-              <li><a v-on:click="close_menu()" href="#about">About</a></li>
+              <li><a v-on:click="close_menu()" href="#about">TokenEconmics</a></li>
               <li><a v-on:click="close_menu()" href="#feature">Features</a></li>
               <li><a v-on:click="close_menu()" href="#review">Review</a></li>
               <li>

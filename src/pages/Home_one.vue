@@ -9,7 +9,7 @@
         <Slider></Slider>
 
         <!-- about section -->
-        <About></About>
+        <TokenEconmics></TokenEconmics>
 
         <!-- best app section -->
         <Bestapp />
@@ -44,7 +44,7 @@
 <script>
     import Navbar from '../components/Navbar'
     import Slider from '../components/Slider'
-    import About from '../components/About'
+    import TokenEconmics from '../components/TokenEconmics'
     import Bestapp from '../components/Bestapp'
     import Features from '../components/Features'
     import Testimonial from '../components/Testimonial'
@@ -60,7 +60,7 @@
         components: {
             Navbar,
             Slider,
-            About,
+            TokenEconmics,
             Bestapp,
             Features,
             Testimonial,

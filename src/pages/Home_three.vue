@@ -8,7 +8,7 @@
         <HeroBannerThree />
 
         <!-- about section -->
-        <About AboutStyle="about-style-3" />
+        <TokenEconmics AboutStyle="about-style-3" />
 
         <!-- best app section -->
         <BestappThree />
@@ -20,7 +20,7 @@
         <TestimonialThree />
 
         <!-- screenshotTwo section -->
-        <ScreenshotTwo />
+        <GameTournament />
 
         <!-- Video section -->
         <VideoTwo />
@@ -43,11 +43,11 @@
 <script>
     import Navbar from '../components/Navbar'
     import HeroBannerThree from '../components/HeroBannerThree'
-    import About from '../components/About'
+    import TokenEconmics from '../components/TokenEconmics'
     import BestappThree from '../components/BestappThree'
     import FeaturesThree from '../components/FeaturesThree'
     import TestimonialThree from '../components/TestimonialThree'
-    import ScreenshotTwo from '../components/ScreenshotTwo'
+    import GameTournament from '../components/GameTournament'
     import VideoTwo from '../components/VideoTwo'
     import Price from '../components/Price'
     import DownloadTwo from '../components/DownloadTwo'
@@ -59,11 +59,11 @@
         components: {
             Navbar,
             HeroBannerThree,
-            About,
+            TokenEconmics,
             BestappThree,
             FeaturesThree,
             TestimonialThree,
-            ScreenshotTwo,
+            GameTournament,
             VideoTwo,
             Price,
             DownloadTwo,

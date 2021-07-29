@@ -49,7 +49,7 @@
 
 <script>
 export default {
-  name: "ScreenshotTwo",
+  name: "GameTournament",
   data() {
     return {
       bgImg: {

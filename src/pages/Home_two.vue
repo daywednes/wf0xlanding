@@ -8,19 +8,19 @@
         <HeroBanner />
 
         <!-- about section -->
-        <About AboutStyle="about-style-2" />
+        <TokenEconmics AboutStyle="about-style-2" />
 
         <!-- best app section -->
         <BestappTwo />
 
         <!-- feature style -->
-        <FeatureTwo />
+        <RoadMap />
 
         <!-- Testimonial section -->
         <TestimonialTwo />
 
         <!-- screenshotTwo section -->
-        <ScreenshotTwo />
+        <GameTournament />
 
         <!-- Video section -->
         <VideoTwo />
@@ -43,11 +43,11 @@
 <script>
     import Navbar from '../components/Navbar'
     import HeroBanner from '../components/HeroBanner'
-    import About from '../components/About'
+    import TokenEconmics from '../components/TokenEconmics'
     import BestappTwo from '../components/BestappTwo'
-    import FeatureTwo from '../components/FeatureTwo'
+    import RoadMap from '../components/RoadMap'
     import TestimonialTwo from '../components/TestimonialTwo'
-    import ScreenshotTwo from '../components/ScreenshotTwo'
+    import GameTournament from '../components/GameTournament'
     import VideoTwo from '../components/VideoTwo'
     import Price from '../components/Price'
     import DownloadTwo from '../components/DownloadTwo'
@@ -59,11 +59,11 @@
         components: {
             Navbar,
             HeroBanner,
-            About,
+            TokenEconmics,
             BestappTwo,
-            FeatureTwo,
+            RoadMap,
             TestimonialTwo,
-            ScreenshotTwo,
+            GameTournament,
             VideoTwo,
             Price,
             DownloadTwo,
