@@ -35,7 +35,7 @@
               <li class="play-btn">
                 <a
                   @click="goTo('/coming-soon')"
-                  style="font-size: x-large; color: #696969;"
+                  style="font-size: x-large; color: black;"
                   >Play</a
                 >
               </li>

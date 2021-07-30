@@ -2,11 +2,10 @@
   <div class="latest-blog-area section-padding">
     <div class="container" style="height: 100%">
       <div class="row">
-        <div class="col-md-6 live-div text-center">
+        <div class="col-md-6 text-center">
           <img
-            src="../assets/img/wf0x/character/c1.png"
+            src="../assets/img/wf0x/character/live-tournament.png"
             alt="doctor thumb"
-            style="max-height:700px;max-width:220px; margin: auto; padding: 35px;"
           />
         </div>
         <div class="col-md-6">
@@ -30,39 +29,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="row mtn-30">
-        <div v-for="blog in blogs" :key="blog.id" class="col-lg-4">
-          <div class="blog-item">
-            <div class="blog-thumb">
-              <a href="#">
-                <img :src="blog.thumb" alt="blog thumb" />
-              </a>
-              <div class="date-comment">
-                <span class="date">{{ blog.date }}</span>
-                <span class="comment"
-                  ><i :class="blog.icon"></i>{{ blog.comment }}</span
-                >
-              </div>
-            </div>
-            <div class="blog-content">
-              <div class="blog-meta">
-                <span
-                  ><i class="fa fa-folder"></i><a href="#">anything</a>,
-                  <a href="#">blog</a></span
-                >
-                <span
-                  ><i class="fa fa-user"></i><a href="#">Erik Jhonson</a></span
-                >
-              </div>
-              <h4 class="news-title">
-                <a href="#">{{ blog.title }}</a>
-              </h4>
-              <p>{{ blog.desc }}</p>
-              <a class="blog-btn" :href="blog.link">READ MORE</a>
-            </div>
-          </div>
-        </div>
-      </div> -->
   </div>
 </template>
 
@@ -70,47 +36,14 @@
 export default {
   name: "LiveTournament",
   data() {
-    return {
-      blogs: [
-        {
-          thumb: require("../assets/img/home-medical/blog/1.jpg"),
-          date: "14 FEB",
-          icon: "fa fa-comment",
-          comment: "12",
-          title: "Duis autem vel eum iriure dolor.",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam.",
-          link: "#",
-        },
-        {
-          thumb: require("../assets/img/home-medical/blog/2.jpg"),
-          date: "18 JUN",
-          icon: "fa fa-comment",
-          comment: "32",
-          title: "Autem duis vel eum dolor iriure.",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam.",
-          link: "#",
-        },
-        {
-          thumb: require("../assets/img/home-medical/blog/3.jpg"),
-          date: "16 MAR",
-          icon: "fa fa-comment",
-          comment: "10",
-          title: "Iriure duis autem vel eum dolor.",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam.",
-          link: "#",
-        },
-      ],
-    };
+    return {};
   },
 };
 </script>
 <style scoped>
 .live-div {
   /* background-image: url("../assets/img/wf0x/feature/L1.png"); */
-  background-image: url("../assets/img/wf0x/character/bc2.png");
+  background-image: url("../assets/img/wf0x/character/live-tournament.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

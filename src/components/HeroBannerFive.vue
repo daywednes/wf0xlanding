@@ -34,7 +34,7 @@
                     </div> -->
                   </div>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-7">
+                <div class="col-xl-7 col-lg-7 col-md-7  d-none d-md-block">
                   <div class="slider-thumb">
                     <img :src="slider.sliderThumb" alt="slider thumb" />
                   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="latest-blog-area section">
+  <div class="latest-blog-area section section-padding">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -8,13 +8,12 @@
               <img src="../assets/img/wf0x/feature/L3.png" alt="doctor thumb" />
             </div>
 
-            <div class=" text-center section-padding">
+            <div class=" text-center ">
               <div class="header-content">
                 <h2 style="color:white;overflow-wrap: anywhere;">
                   TRAINING ROBOT
                 </h2>
               </div>
-              <br />
               <p class="header-detail text-center">
                 “Users can train robots by joining some mini games. You will
                 need to select which robots you want to train, pay certain
