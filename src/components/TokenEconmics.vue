@@ -36,30 +36,29 @@ export default {
     return {
       abouts: [
         {
-          title: "BUILD SHOWCASE",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          title: "In-game Currency",
+          desc: "Most items in the game will be payable using F0x tokens.",
           icon: "fa fa-pagelines",
           img: require("../assets/img/wf0x/token/tk1.png"),
         },
         {
-          title: "FULL RESPONSIVE",
+          title: "Governance",
           desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+            "Vote for new features and settings of the game to earn special rewards. Lock F0x tokens for a certain time to gain voting power.",
           icon: "fa fa-laptop",
           img: require("../assets/img/wf0x/token/tk2.png"),
         },
         {
-          title: "RETINA READY",
+          title: "Staking",
           desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+            "Become part of the game by staking F0x tokens into pools. Different pools will yield different returns such as new items, new rbots, or F0x tokens.",
           icon: "fa fa-apple",
           img: require("../assets/img/wf0x/token/tk3.png"),
         },
         {
-          title: "UNIQUE DESIGN",
+          title: "Play 2 Earn",
           desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+            "Simply playing can also get you F0x tokens via mission and social mining.",
           icon: "fa fa-paint-brush",
           img: require("../assets/img/wf0x/token/tk4.png"),
         },

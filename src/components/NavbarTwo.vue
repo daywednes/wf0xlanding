@@ -184,6 +184,7 @@ export default {
   width: 150px;
   text-align: center;
   cursor: pointer;
+  background-position-y: center;
 }
 // .brand-logo {
 //   align-self: start;
