@@ -62,6 +62,7 @@
 .main-menu {
   display: flex;
   flex-direction: row;
+  align-items: center !important;
 
   // responsive
   @media #{$md-device, $sm-device} {
@@ -188,6 +189,8 @@
         a {
           // color: white;
           padding: 40px 0;
+          font-size: large;
+          align-self: center;
 
           &:before {
             display: none;

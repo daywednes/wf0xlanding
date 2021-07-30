@@ -35,7 +35,7 @@
               <li class="play-btn">
                 <a
                   @click="goTo('/coming-soon')"
-                  style="color: black !important;"
+                  style="font-size: x-large; color: #696969;"
                   >Play</a
                 >
               </li>
@@ -166,7 +166,7 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/header.scss";
 .wflogo {
-  height: 101.5px;
+  height: 118px;
   // background: rgb(2, 0, 36);
   // background: linear-gradient(
   //   0deg,
@@ -179,19 +179,13 @@ export default {
   padding: 10px;
 }
 .play-btn {
-  // background: rgb(255, 149, 0);
-  // background: linear-gradient(
-  //   0deg,
-  //   rgba(255, 149, 0, 1) 23%,
-  //   rgba(255, 226, 0, 1) 100%
-  // );
-
   background-image: url("../assets/img/wf0x/button_play.png");
   background-repeat: no-repeat;
-  width: 100px;
+  width: 150px;
   text-align: center;
+  cursor: pointer;
 }
-.brand-logo {
-  align-self: start;
-}
+// .brand-logo {
+//   align-self: start;
+// }
 </style>
