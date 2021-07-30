@@ -96,8 +96,8 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/team.scss";
 .character-bg {
-  background-image: url("../assets/img/wf0x/character/bc.png");
-  background-position: center;
+  background-image: url("../assets/img/wf0x/character/background_character.png");
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   //   min-height: 1100px;

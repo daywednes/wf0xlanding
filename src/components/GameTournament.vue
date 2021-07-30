@@ -1,10 +1,10 @@
 <template>
-  <div
-    class="screenshot-style-2 bg-cover section"
-  >
+  <div class="screenshot-style-2 bg-cover section">
     <div class="container">
       <div class="row">
         <div class="col-12">
+          <h1 class="title text-center header-content2">FEATURE</h1>
+          <br />
           <div class="screenshot-gallery text-center">
             <swiper :options="swiperOption">
               <swiper-slide>
@@ -34,7 +34,9 @@
       <div class="row">
         <div class="col-12">
           <div class="text-center">
-            <h1 class="title" style="color:yellow">GAME TOURNAMENT</h1>
+            <div class="header-content">
+              <h2 style="color:white;">GAME TOURNAMENT</h2>
+            </div>
             <p class="header-detail text-center">
               “Game tournament is win-lose by game formula(addition current
               performance if any). There are weekly, monthly, world tournaments

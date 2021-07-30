@@ -4,15 +4,22 @@
       <div class="row">
         <div class="col-12">
           <div>
-            <!-- <div class="header-content">
-              <h2 style="color:white;">FEATURE</h2>
-            </div> -->
+            <div class=" text-center">
+              <img src="../assets/img/wf0x/feature/L3.png" alt="doctor thumb" />
+            </div>
 
-            <div class="live-div text-center section-padding">
-              <h1 style="color: yellow; overflow-wrap: anywhere;">TRAINING ROBOT</h1>
+            <div class=" text-center section-padding">
+              <div class="header-content">
+                <h2 style="color:white;overflow-wrap: anywhere;">
+                  TRAINING ROBOT
+                </h2>
+              </div>
               <br />
               <p class="header-detail text-center">
-                “Users can train robots by joining some mini games. You will need to select which robots you want to train, pay certain resources based on robots and get attribute increases for selected robots based on your result in mini games”
+                “Users can train robots by joining some mini games. You will
+                need to select which robots you want to train, pay certain
+                resources based on robots and get attribute increases for
+                selected robots based on your result in mini games”
               </p>
             </div>
           </div>

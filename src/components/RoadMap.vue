@@ -1,16 +1,12 @@
 <template>
-  <section class="feature-style-2 bg-cover section-padding2 section">
+  <section class="feature-style-2 bg-cover section">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <!-- <div class="section-title title-style-2">
-                        <h2 class="title">ROAD MAP</h2>
-                        <p class="paragraph">Claritas est etiam processus dynamicus, qui sequitur mutationem<br> consuetudium lectorum.</p>
-                    </div> -->
-
-          <div class="header-content">
+          <!-- <div class="header-content">
             <h2 style="color:white;">ROAD MAP</h2>
-          </div>
+          </div> -->
+          <h1 class="title text-center header-content2">ROAD MAP</h1>
         </div>
       </div>
       <div class="row align-items-center">
@@ -30,8 +26,10 @@
                 <i :class="sinFeature.icon"></i>
               </div> -->
               <div class="content">
-                <h6 class="feature-title">{{ sinFeature.title }}</h6>
-                <p>{{ sinFeature.desc }}</p>
+                <div class="header-content">
+                  <h4 style="color:white;">{{ sinFeature.title }}</h4>
+                </div>
+                <h5 style="color:#696969">{{ sinFeature.desc }}</h5>
               </div>
             </div>
           </div>

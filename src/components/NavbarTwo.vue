@@ -149,7 +149,7 @@ export default {
         var scrollPosition =
           document.documentElement.scrollTop || document.body.scrollTop;
         for (i in sections) {
-          if (sections[i] <= scrollPosition + 120) {
+          if (i && i.length > 1 && sections[i] <= scrollPosition + 120) {
             document.querySelector(".activee").setAttribute("class", " ");
             document
               .querySelector("a[href*=" + i + "]")
@@ -166,16 +166,32 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/header.scss";
 .wflogo {
-  height: 80px;
+  height: 101.5px;
+  // background: rgb(2, 0, 36);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(2, 0, 36, 1) 0%,
+  //   rgba(9, 9, 121, 1) 0%,
+  //   rgba(205, 0, 255, 1) 100%
+  // );
+  background-image: url("../assets/img/wf0x/select.png");
+  background-repeat: no-repeat;
+  padding: 10px;
 }
 .play-btn {
-  background: rgb(255, 149, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 149, 0, 1) 23%,
-    rgba(255, 226, 0, 1) 100%
-  );
+  // background: rgb(255, 149, 0);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(255, 149, 0, 1) 23%,
+  //   rgba(255, 226, 0, 1) 100%
+  // );
+
+  background-image: url("../assets/img/wf0x/button_play.png");
+  background-repeat: no-repeat;
   width: 100px;
   text-align: center;
+}
+.brand-logo {
+  align-self: start;
 }
 </style>

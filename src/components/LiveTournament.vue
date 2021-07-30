@@ -1,30 +1,30 @@
 <template>
   <div class="latest-blog-area section-padding">
-    <div class="live-div">
-      <div class="container" style="height: 100%">
-        <div class="row">
-          <div class="col-12">
-            <div>
-              <div class="header-content">
-                <h2 style="color:white;">FEATURE</h2>
-              </div>
-              <div class="text-center">
-                <h1 style="color: yellow; overflow-wrap: anywhere;">
+    <div class="container" style="height: 100%">
+      <div class="row">
+        <div class="col-md-6 live-div text-center">
+          <img
+            src="../assets/img/wf0x/character/c1.png"
+            alt="doctor thumb"
+            style="max-height:700px;max-width:220px; margin: auto; padding: 35px;"
+          />
+        </div>
+        <div class="col-md-6">
+          <div>
+            <div class="header-content">
+              <h2 style="color:white;">LIVE TOURNAMENT</h2>
+            </div>
+            <div class="text-center">
+              <!-- <h1 style="color: yellow; overflow-wrap: anywhere;">
                   LIVE TOURNAMENT
-                </h1>
-                <br />
-                <img
-                  src="../assets/img/wf0x/character/c1.png"
-                  alt="doctor thumb"
-                  style="max-height:600px;max-width:180px; margin: auto;"
-                />
-                <p class="header-detail text-center" style="padding:30px;">
-                  “Live tournament place base on real league (Premier League,
-                  Euro, World Cup,...) and evaluated based on the players'
-                  actual performance during the season and according to a scale
-                  specified”
-                </p>
-              </div>
+                </h1> -->
+              <br />
+              <p class="header-detail text-center" style="padding:30px;">
+                “Live tournament place base on real league (Premier League,
+                Euro, World Cup,...) and evaluated based on the players' actual
+                performance during the season and according to a scale
+                specified”
+              </p>
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default {
 <style scoped>
 .live-div {
   /* background-image: url("../assets/img/wf0x/feature/L1.png"); */
-  background-image: url("../assets/img/wf0x/character/bc.png");
+  background-image: url("../assets/img/wf0x/character/bc2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,5 +1,5 @@
 <template>
-  <div class="coming-soon-wrapper" :style="bgImg">
+  <div class="coming-soon-wrapper bgimg">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -62,7 +62,7 @@ export default {
   data() {
     return {
       bgImg: {
-        backgroundImage: `url(${require("../assets/img/wf0x/background-2.png")})`,
+        backgroundImage: `url(${require("../assets/img/wf0x/background1.png")})`,
       },
     };
   },

@@ -1,28 +1,34 @@
 <template>
-  <div class="main-container wf-container" style="background:#0c1e46;">
+  <div class="main-container">
     <!-- Navbar section -->
     <NavbarTwo />
 
     <!-- slider section -->
     <HeroBannerFive />
-    <section id="feature" class="wf-container div-shadow">
-      <LiveTournament />
-      <GameTournament />
-      <MiniGame />
-      <Fusion />
+    <section id="feature">
+      <div class="wf-container div-shadow">
+        <AboutWF />
+        <GameTournament />
+      </div>
+      <div class="wf-container4 div-shadow">
+        <LiveTournament /> <MiniGame />
+      </div>
+      <div class="wf-container3 div-shadow">
+        <Fusion />
+      </div>
     </section>
 
     <TeamCharacter class="div-shadow" />
-    
-    <section id="roadmap" class="wf-container div-shadow">
+
+    <section id="roadmap" class="wf-container2 div-shadow">
       <RoadMap />
     </section>
 
-    <section id="tokenView" class="wf-container4 div-shadow">
-      <TokenView />
-      <TokenEconmics />
+    <section id="tokenView">
+      <TokenView class="wf-container div-shadow" />
+      <TokenEconmics class="wf-container4 div-shadow" />
     </section>
-    <section id="wfteam" class="wf-container3 div-shadow">
+    <section id="wfteam" class="wf-container5 div-shadow">
       <WFTeam />
     </section>
     <FooterTwo />
@@ -31,6 +37,7 @@
 
 <script>
 import NavbarTwo from "../components/NavbarTwo";
+import AboutWF from "../components/AboutWF";
 import GameTournament from "../components/GameTournament";
 import MiniGame from "../components/MiniGame";
 import Fusion from "../components/Fusion";
@@ -46,6 +53,7 @@ import FooterTwo from "../components/FooterTwo";
 export default {
   name: "app",
   components: {
+    AboutWF,
     GameTournament,
     MiniGame,
     Fusion,
@@ -62,6 +70,31 @@ export default {
 };
 </script>
 <style>
+.header-content {
+  background-image: url("../assets/img/wf0x/title.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+  padding: 5px 70px;
+  margin: 10px 0px;
+  max-width: 500px;
+}
+
+.header-content2 {
+  color: #39a5ff !important;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 50px;
+  overflow-wrap: anywhere;
+}
+
+.header-detail {
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #696969;
+}
 .wf-container {
   background-image: url("../assets/img/wf0x/background-2.png");
   /* background-position: center; */
@@ -87,9 +120,18 @@ export default {
   background-size: cover;
 }
 
+.wf-container5 {
+  background-image: url("../assets/img/wf0x/background-team.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .div-shadow {
   -moz-box-shadow: inset 0 0 -20px #0c1e46;
   -webkit-box-shadow: inset 0 0 -20px #0c1e46;
   box-shadow: inset 0 0 -20px #0c1e46;
+  margin-bottom: 15px;
+  padding-bottom: 50px;
 }
 </style>

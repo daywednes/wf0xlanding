@@ -1,9 +1,10 @@
 <template>
-  <section class="about-area section-padding section" :class="AboutStyle">
+  <section class="section" :class="AboutStyle">
     <div class="container">
-      <div class="header-content">
+      <h1 class="title text-center header-content2">TEAM</h1>
+      <!-- <div class="header-content">
         <h2 style="color:white;">TEAM</h2>
-      </div>
+      </div> -->
       <div class="row">
         <!-- single item start -->
         <div
@@ -14,10 +15,15 @@
           <div class="about-item">
             <img :src="about.img" />
             <div class="about-content">
-              <h6 style="color:yellow; font-size: large;">
+              <!-- <h6 style="color:#39a5ff; font-size: large;">
                 {{ about.title }}
               </h6>
               <p style="color:white; font-size: large;">{{ about.desc }}</p>
+               -->
+              <div class="header-content">
+                <h4 style="color:white;">{{ about.title }}</h4>
+              </div>
+              <h5 style="color:#696969">{{ about.desc }}</h5>
             </div>
           </div>
         </div>

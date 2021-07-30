@@ -43,7 +43,7 @@
             </div>
             <!-- single slider end -->
           </carousel>
-          <div>
+          <!-- <div>
             <div class="header-content">
               <h2 style="color:white;">ABOUT WF0x</h2>
             </div>
@@ -59,7 +59,7 @@
               strategies, you can earn more resources and create more real value
               in this game as well as the next phases.”
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -119,28 +119,10 @@ export default {
 </script>
 
 <style>
-.header-content {
-  background-image: url("../assets/img/wf0x/title.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white !important;
-  padding: 10px 70px;
-  margin: 10px 0px;
-  max-width: 500px;
-}
-
-.header-detail {
-  font-size: large;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 .bgimg {
   background-image: url("../assets/img/wf0x/background1.png");
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 3%;
 }
 </style>

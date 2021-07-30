@@ -1,28 +1,25 @@
 <template>
-  <div class="screenshot-style-2 bg-cover section-padding section">
+  <div class="screenshot-style-2 bg-cover section section-padding">
     <div class="container">
-      <div class="header-content">
-        <h2 style="color:white;">FUSION</h2>
-      </div>
-      <br />
       <div class="row">
-        <div class="col-8 mx-auto">
-          <div class="text-center">
-            <p class="header-detail text-center">
-              “Game tournament is win-lose by game formula(addition current
-              performance if any). There are weekly, monthly, world tournaments
-              and grouping users in different groups based on their strength.”
-            </p>
-          </div>
+        <div class="col-12">
+          <h1 class="title text-center header-content2">ABOUT WF0x</h1>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-8 mx-auto">
-          <div class="screenshot-gallery text-center">
-            <img
-              src="../assets/img/wf0x/feature/L4.png"
-              alt="screenshot thumb"
-            />
+        <div class="col-12">
+          <div class="text-center">
+            <p class="header-detail text-center">
+              “WORLD FANTASY 0X (WF0X) IS A GLOBAL FANTASY FOOTBALL GAME WHERE
+              YOU CAN CREATE YOUR HERO TEAM WITH WF0X ROBOTS. IT WILL INTERACT
+              DIRECTLY WITH THE PERFORMANCE AND ABILITY OF FOOTBALL PLAYERS IN
+              THE REAL WORLD. MANAGING YOUR OWN FOOTBALL TEAM, MAKING THEM
+              STRONGER THROUGHOUT INTERESTING MINI GAMES AND FUNCTIONS. JOINING
+              GREAT TOURNAMENTS BASED ON THE LIVE SEASONS AND TOURNAMENTS BASED
+              ON YOUR SMART STRATEGIES, YOU CAN EARN MORE RESOURCES AND CREATE
+              MORE REAL VALUE IN THIS GAME AS WELL AS THE NEXT PHASES.”
+            </p>
           </div>
         </div>
       </div>
