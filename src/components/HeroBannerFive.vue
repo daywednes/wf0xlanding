@@ -6,7 +6,8 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <carousel
+          <!-- single slider item -->
+          <!-- <carousel
             class="hero-carousel"
             :items="1"
             :nav="false"
@@ -14,7 +15,6 @@
             :loop="true"
             :autoplay="true"
           >
-            <!-- single slider item -->
             <div
               v-for="(slider, sliders) in sliders"
               :key="sliders"
@@ -26,12 +26,12 @@
                     <div class="slider-title">
                       <img :src="slider.logo" alt="slider logo" />
                     </div>
-                    <!-- <h6 class="slider-subtitle">{{ slider.subtitle }}</h6>
+                    <h6 class="slider-subtitle">{{ slider.subtitle }}</h6>
                     <h2 class="slider-title">{{ slider.sliderTitle }}</h2>
                     <p class="slider-desc">{{ slider.sliderDesc }}</p>
                     <div class="slider-btn">
                       <a href="#" class="btn btn-round">LEARN MORE</a>
-                    </div> -->
+                    </div>
                   </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7  d-none d-md-block">
@@ -41,8 +41,8 @@
                 </div>
               </div>
             </div>
-            <!-- single slider end -->
-          </carousel>
+          </carousel> -->
+          <!-- single slider end -->
           <!-- <div>
             <div class="header-content">
               <h2 style="color:white;">ABOUT WF0x</h2>
@@ -120,9 +120,11 @@ export default {
 
 <style>
 .bgimg {
-  background-image: url("../assets/img/wf0x/background1.png");
-  background-position: bottom;
+  background-image: url("../assets/img/wf0x/thu-nghiem.png");
+  /* background-image: url("../assets/img/wf0x/background1.png"); */
+  background-position: initial;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 </style>
