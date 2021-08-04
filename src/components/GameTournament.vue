@@ -10,7 +10,7 @@
               <swiper-slide>
                 <div class="scr-thumb">
                   <img
-                    src="../assets/img/wf0x/feature/card1.png"
+                    src="../assets/img/wf0x/feature/t1.png"
                     alt="screenshot thumb"
                   />
                 </div>
@@ -18,7 +18,7 @@
               <swiper-slide>
                 <div class="scr-thumb">
                   <img
-                    src="../assets/img/wf0x/feature/card2.png"
+                    src="../assets/img/wf0x/feature/t2.png"
                     alt="screenshot thumb"
                   />
                 </div>

@@ -79,10 +79,16 @@ export default {
   padding: 5px 70px;
   margin: 10px 0px;
   max-width: 500px;
+  overflow-wrap: anywhere;
 }
 
 .header-content2 {
-  color: #39a5ff !important;
+  background-image: url("../assets/img/wf0x/l1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* color: #39a5ff !important; */
+  color: white !important;
   padding: 50px;
   font-weight: bold;
   font-size: 50px;

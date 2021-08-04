@@ -1,6 +1,6 @@
 <template>
   <section
-    class="slider-section slider-style-5 section bgimg div-shadow"
+    class="slider-section slider-style-5 section bgimg2 div-shadow"
     id="home"
   >
     <div class="container">
@@ -120,11 +120,18 @@ export default {
 
 <style>
 .bgimg {
-  background-image: url("../assets/img/wf0x/thu-nghiem.png");
-  /* background-image: url("../assets/img/wf0x/background1.png"); */
+  /* background-image: url("../assets/img/wf0x/thu-nghiem.png"); */
+  background-image: url("../assets/img/wf0x/background1.png");
   background-position: initial;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+}
+.bgimg2 {
+  background-image: url("../assets/img/wf0x/rieng-bn.png");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 100vh;
 }
 </style>
