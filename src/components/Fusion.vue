@@ -1,7 +1,7 @@
 <template>
   <div class="screenshot-style-2 bg-cover section live-footer">
     <div class="container">
-      <h1 class="title text-center header-content2">FEATURE</h1>
+      <h1 class="title header-content2">FEATURE</h1>
 
       <div class="row">
         <div class="col-8 mx-auto">

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12">
           <div>
-            <h1 class="title text-center header-content2">FEATURE</h1>
+            <h1 class="title header-content2">FEATURE</h1>
             <div class=" text-center">
               <img
                 src="../assets/img/wf0x/feature/training.png"

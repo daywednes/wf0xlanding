@@ -1,7 +1,7 @@
 <template>
   <section class="section" :class="AboutStyle">
     <div class="container">
-      <h1 class="title text-center header-content2">TEAM</h1>
+      <h1 class="title header-content2">TEAM</h1>
       <!-- <div class="header-content">
         <h2 style="color:white;">TEAM</h2>
       </div> -->

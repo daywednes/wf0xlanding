@@ -10,7 +10,7 @@
             <h2 style="color:white;">CHARACTERS</h2>
           </div> -->
 
-          <h1 class="title text-center header-content2">CHARACTERS</h1>
+          <h1 class="title header-content2">CHARACTERS</h1>
         </div>
       </div>
       <div class="row">

@@ -87,17 +87,24 @@ export default {
 
 .header-content2 {
   background-image: url("../assets/img/wf0x/l1.png");
-  background-position: left;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 500px;
+  background-size: cover;
+  max-width: 600px;
   /* color: #39a5ff !important; */
   color: white !important;
-  padding: 50px;
+  padding: 20px;
   font-weight: bold;
   font-size: 42px;
   margin-left: -20%;
   overflow-wrap: anywhere;
+}
+
+@media (max-width: 500px) {
+  .header-content2 {
+    margin-left: 0px;
+    font-size: 32px;
+  }
 }
 
 .header-detail {

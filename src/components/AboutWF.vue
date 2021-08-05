@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="title text-center header-content2">ABOUT WF0x</h1>
+          <h1 class="title header-content2">ABOUT WF0x</h1>
         </div>
       </div>
 

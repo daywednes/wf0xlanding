@@ -3,8 +3,8 @@
     <div class="container" style="height: 100%">
       <div class="row">
         <div class="col-12">
+          <h1 class="title header-content2">F0x TOKEN</h1>
           <div class="text-center">
-            <h1 class="title text-center header-content2">F0x TOKEN</h1>
             <img
               src="../assets/img/wf0x/token/tk2.png"
               alt="doctor thumb"
