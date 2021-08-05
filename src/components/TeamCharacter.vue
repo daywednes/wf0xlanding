@@ -6,14 +6,11 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <!-- <div class="section-title title-style-5 text-center">
-                        <h2 class="title">OUR CHARACTERS</h2>
-                        <p class="paragraph">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-                    </div> -->
-
-          <div class="header-content">
+          <!-- <div class="header-content">
             <h2 style="color:white;">CHARACTERS</h2>
-          </div>
+          </div> -->
+
+          <h1 class="title header-content2">CHARACTERS</h1>
         </div>
       </div>
       <div class="row">

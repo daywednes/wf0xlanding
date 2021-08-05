@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="title text-center header-content2">FEATURE</h1>
+          <h1 class="title header-content2">FEATURE</h1>
           <br />
           <div class="screenshot-gallery text-center">
             <swiper :options="swiperOption">
@@ -19,6 +19,14 @@
                 <div class="scr-thumb">
                   <img
                     src="../assets/img/wf0x/feature/t2.png"
+                    alt="screenshot thumb"
+                  />
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="scr-thumb">
+                  <img
+                    src="../assets/img/wf0x/feature/t3.png"
                     alt="screenshot thumb"
                   />
                 </div>
