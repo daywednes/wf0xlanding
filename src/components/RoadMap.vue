@@ -6,7 +6,7 @@
           <!-- <div class="header-content">
             <h2 style="color:white;">ROAD MAP</h2>
           </div> -->
-          <h1 class="title text-center header-content2">ROAD MAP</h1>
+          <h1 class="title header-content2">ROAD MAP</h1>
         </div>
       </div>
       <div class="row align-items-center">

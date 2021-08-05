@@ -7,7 +7,7 @@
             <div class="brand-logo">
               <a href="#">
                 <img
-                  src="../assets/img/wf0x/logo.png"
+                  src="../assets/img/wf0x/logo2.png"
                   alt="Brand Logo"
                   class="wflogo"
                 />
@@ -174,8 +174,6 @@ export default {
   //   rgba(9, 9, 121, 1) 0%,
   //   rgba(205, 0, 255, 1) 100%
   // );
-  background-image: url("../assets/img/wf0x/select.png");
-  background-repeat: no-repeat;
   padding: 10px;
 }
 .play-btn {
