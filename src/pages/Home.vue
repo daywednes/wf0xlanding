@@ -10,8 +10,11 @@
         <AboutWF />
         <GameTournament />
       </div>
+      <div class="wf-container2 div-shadow">
+        <LiveTournament /> 
+      </div>
       <div class="wf-container4 div-shadow">
-        <LiveTournament /> <MiniGame />
+        <MiniGame />
       </div>
       <div class="wf-container3 div-shadow">
         <Fusion />
@@ -84,14 +87,16 @@ export default {
 
 .header-content2 {
   background-image: url("../assets/img/wf0x/l1.png");
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 50%;
   /* color: #39a5ff !important; */
   color: white !important;
   padding: 50px;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 42px;
+  margin-left: -20%;
   overflow-wrap: anywhere;
 }
 
@@ -138,6 +143,6 @@ export default {
   -webkit-box-shadow: inset 0 0 -20px #0c1e46;
   box-shadow: inset 0 0 -20px #0c1e46;
   margin-bottom: 15px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section class=" section" :class="AboutStyle">
+  <section class="section" :class="AboutStyle" style="padding-bottom: 100px;">
     <div class="container">
       <!-- <div class="header-content">
         <h2 style="color:white;">TOKEN ECONOMICS</h2>
@@ -13,7 +13,7 @@
           class="col-lg-6 col-md-6"
         >
           <div class="about-item">
-            <img :src="about.img" />
+            <img :src="about.img" style="max-height: 350px;" />
             <div class="about-content">
               <div class="header-content">
                 <h4 style="color:white;">{{ about.title }}</h4>
