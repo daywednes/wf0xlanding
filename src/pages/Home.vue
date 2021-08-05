@@ -11,7 +11,7 @@
         <GameTournament />
       </div>
       <div class="wf-container2 div-shadow">
-        <LiveTournament /> 
+        <LiveTournament />
       </div>
       <div class="wf-container4 div-shadow">
         <MiniGame />
@@ -90,7 +90,7 @@ export default {
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 50%;
+  max-width: 500px;
   /* color: #39a5ff !important; */
   color: white !important;
   padding: 50px;

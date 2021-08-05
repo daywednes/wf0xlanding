@@ -1,5 +1,7 @@
 <template>
-  <div class="screenshot-style-2 bg-cover section section-padding live-footer">
+  <div
+    class="screenshot-style-2 bg-cover section section-padding live-footer-2"
+  >
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -8,16 +10,16 @@
       </div>
 
       <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
           <img
             src="../assets/img/wf0x/character/live-tournament.png"
             alt="doctor thumb"
             style="max-height:600px;"
           />
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="text-center">
-            <p class="header-detail text-center">
+            <p class="header-detail text-center" style="padding-bottom: 50px">
               “WORLD FANTASY 0X (WF0X) IS A GLOBAL FANTASY FOOTBALL GAME WHERE
               YOU CAN CREATE YOUR HERO TEAM WITH WF0X ROBOTS. IT WILL INTERACT
               DIRECTLY WITH THE PERFORMANCE AND ABILITY OF FOOTBALL PLAYERS IN
@@ -74,3 +76,16 @@ export default {
   },
 };
 </script>
+<style>
+.live-footer-2 {
+  background-image: url("../assets/img/wf0x/hn.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 500px) {
+  .live-footer-2 {
+    background-size: contain !important;
+  }
+}
+</style>
