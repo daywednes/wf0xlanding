@@ -5,9 +5,11 @@
 
     <!-- slider section -->
     <HeroBannerFive />
+    <div class="wf-container div-shadow">
+      <AboutWF />
+    </div>
     <section id="feature">
       <div class="wf-container div-shadow">
-        <AboutWF />
         <GameTournament />
       </div>
       <div class="wf-container2 div-shadow">
@@ -28,7 +30,7 @@
     </section>
 
     <section id="tokenView">
-      <TokenView class="wf-container div-shadow" />
+      <TokenView class="wf-token div-shadow" />
       <TokenEconmics class="wf-container4 div-shadow" />
     </section>
     <section id="wfteam" class="wf-container5 div-shadow">
@@ -80,7 +82,7 @@ export default {
   background-size: cover;
   color: white !important;
   padding: 5px 70px;
-  margin: 10px 0px;
+  margin: 20px 0px;
   max-width: 500px;
   overflow-wrap: anywhere;
 }
@@ -96,16 +98,17 @@ export default {
   padding: 20px;
   font-weight: bold;
   font-size: 42px;
-  margin-left: -20%;
+  margin-top: 100px;
+  /* margin-left: -20%; */
   overflow-wrap: anywhere;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .header-content2 {
     margin-left: 0px;
     font-size: 32px;
   }
-}
+} */
 
 .header-detail {
   font-size: large;
@@ -118,24 +121,28 @@ export default {
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 50px;
 }
 .wf-container2 {
   background-image: url("../assets/img/wf0x/BG3.png");
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 50px;
 }
 .wf-container3 {
   background-image: url("../assets/img/wf0x/BG4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 50px;
 }
 .wf-container4 {
   background-image: url("../assets/img/wf0x/BG5.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 50px;
 }
 
 .wf-container5 {
@@ -143,13 +150,21 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 50px;
+}
+.wf-token {
+  background-image: url("../assets/img/wf0x/token.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
 }
 
 .div-shadow {
   -moz-box-shadow: inset 0 0 -20px #0c1e46;
   -webkit-box-shadow: inset 0 0 -20px #0c1e46;
   box-shadow: inset 0 0 -20px #0c1e46;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   /* padding-bottom: 50px; */
 }
 </style>

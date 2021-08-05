@@ -1,7 +1,7 @@
 <template>
   <div class="latest-blog-area live-footer">
     <div class="container" style="height: 100%">
-      <h1 class="title header-content2">FEATURE</h1>
+      <!-- <h1 class="title header-content2">LIVE TOURNAMENT</h1> -->
       <div class="row">
         <div class="col-md-12 text-center">
           <img
@@ -20,7 +20,7 @@
             <div class="text-center">
               <p
                 class="header-detail text-center"
-                style="padding:30px; color: white"
+                style="padding:0px 30px; color: white"
               >
                 “Live tournament place base on real league (Premier League,
                 Euro, World Cup,...) and evaluated based on the players' actual

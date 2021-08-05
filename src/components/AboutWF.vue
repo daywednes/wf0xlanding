@@ -1,6 +1,6 @@
 <template>
   <div
-    class="screenshot-style-2 bg-cover section section-padding live-footer-2"
+    class="screenshot-style-2 bg-cover section live-footer-2"
   >
     <div class="container">
       <div class="row">

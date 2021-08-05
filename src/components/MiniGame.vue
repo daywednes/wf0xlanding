@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12">
           <div>
-            <h1 class="title header-content2">FEATURE</h1>
+            <!-- <h1 class="title header-content2">TRAINING</h1> -->
             <div class=" text-center">
               <img
                 src="../assets/img/wf0x/feature/training.png"
@@ -15,7 +15,7 @@
             <div class=" text-center ">
               <div class="header-content">
                 <h2 style="color:white;overflow-wrap: anywhere;">
-                  TRAINING ROBOT
+                  TRAINING
                 </h2>
               </div>
               <p class="header-detail text-center">

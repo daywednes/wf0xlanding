@@ -1,6 +1,6 @@
 <template>
   <section
-    class="team-area section-padding fix section character-bg"
+    class="team-area fix section character-bg"
     id="character"
   >
     <div class="container">
