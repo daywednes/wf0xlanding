@@ -1,5 +1,5 @@
 <template>
-  <div class="screenshot-style-2 bg-cover section section-padding">
+  <div class="screenshot-style-2 bg-cover section section-padding live-footer">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -8,7 +8,14 @@
       </div>
 
       <div class="row">
-        <div class="col-12">
+        <div class="col-6">
+          <img
+            src="../assets/img/wf0x/character/live-tournament.png"
+            alt="doctor thumb"
+            style="max-height:600px;"
+          />
+        </div>
+        <div class="col-6">
           <div class="text-center">
             <p class="header-detail text-center">
               “WORLD FANTASY 0X (WF0X) IS A GLOBAL FANTASY FOOTBALL GAME WHERE

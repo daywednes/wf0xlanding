@@ -23,6 +23,14 @@
                   />
                 </div>
               </swiper-slide>
+              <swiper-slide>
+                <div class="scr-thumb">
+                  <img
+                    src="../assets/img/wf0x/feature/t3.png"
+                    alt="screenshot thumb"
+                  />
+                </div>
+              </swiper-slide>
               <!-- Optional controls -->
               <div class="swiper-button-prev" slot="button-prev"></div>
               <div class="swiper-button-next" slot="button-next"></div>

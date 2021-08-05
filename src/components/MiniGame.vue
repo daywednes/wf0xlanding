@@ -4,8 +4,12 @@
       <div class="row">
         <div class="col-12">
           <div>
+            <h1 class="title text-center header-content2">FEATURE</h1>
             <div class=" text-center">
-              <img src="../assets/img/wf0x/feature/L3.png" alt="doctor thumb" />
+              <img
+                src="../assets/img/wf0x/feature/training.png"
+                alt="doctor thumb"
+              />
             </div>
 
             <div class=" text-center ">
@@ -71,7 +75,7 @@ export default {
 </script>
 <style scoped>
 .live-div {
-  background-image: url("../assets/img/wf0x/feature/L3.png");
+  background-image: url("../assets/img/wf0x/feature/training.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
