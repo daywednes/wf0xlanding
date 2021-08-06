@@ -18,6 +18,14 @@
               <swiper-slide>
                 <div class="scr-thumb">
                   <img
+                    src="../assets/img/wf0x/Card/c_mb.png"
+                    alt="screenshot thumb"
+                  />
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="scr-thumb">
+                  <img
                     src="../assets/img/wf0x/feature/t2.png"
                     alt="screenshot thumb"
                   />
@@ -26,7 +34,23 @@
               <swiper-slide>
                 <div class="scr-thumb">
                   <img
+                    src="../assets/img/wf0x/Card/c_kevin.png"
+                    alt="screenshot thumb"
+                  />
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="scr-thumb">
+                  <img
                     src="../assets/img/wf0x/feature/t3.png"
+                    alt="screenshot thumb"
+                  />
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="scr-thumb">
+                  <img
+                    src="../assets/img/wf0x/Card/haland.png"
                     alt="screenshot thumb"
                   />
                 </div>

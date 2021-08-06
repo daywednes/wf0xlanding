@@ -1,19 +1,22 @@
 <template>
-  <div class="latest-blog-area">
+  <div class="latest-blog-area live-footer">
     <div class="container" style="height: 100%">
       <div class="row">
         <div class="col-12">
           <h1 class="title header-content2">F0x TOKEN</h1>
           <div class="text-center">
-            <!-- <img
-              src="../assets/img/wf0x/token.png"
+            <img
+              src="../assets/img/wf0x/token2.png"
               alt="doctor thumb"
-              style="padding:50px;max-height:400px;"
-            /> -->
+              style="max-height:600px;"
+            />
             <!-- <div class="header-content">
               <h2 style="color:white;">F0x TOKEN</h2>
             </div> -->
-            <p class="header-detail text-center" style="padding:750px 80px 20px 80px; color:white">
+            <p
+              class="header-detail text-center"
+              style=" padding:50px; color:white"
+            >
               “F0x token is the main in-game currency. It will be used for
               trading, exchanging, improving the Pets and their special
               qualities, mainly in the first phase.”

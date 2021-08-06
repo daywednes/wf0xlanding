@@ -1,8 +1,5 @@
 <template>
-  <section
-    class="team-area fix section character-bg"
-    id="character"
-  >
+  <section class="team-area fix section character-bg" id="character">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -38,7 +35,7 @@
                 <img
                   :src="doctor.thumb"
                   alt="doctor thumb"
-                  style="max-height:600px;max-width:180px; margin: auto;"
+                  style="max-height:700px;max-width:180px; margin: auto;"
                 />
                 <div class="doctor-content">
                   <h6 class="title">{{ doctor.title }}</h6>
@@ -97,6 +94,6 @@ export default {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  //   min-height: 1100px;
+  min-height: 800px;
 }
 </style>
