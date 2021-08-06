@@ -11,14 +11,13 @@
     <section id="feature">
       <div class="wf-container div-shadow">
         <GameTournament />
-      </div>
-      <div class="wf-container2 div-shadow">
         <LiveTournament />
       </div>
-      <div class="wf-container4 div-shadow">
-        <MiniGame />
-      </div>
+      <!-- <div class="wf-container2 div-shadow">
+      </div> -->
+      <!-- <div class="wf-container4 div-shadow"></div> -->
       <div class="wf-container3 div-shadow">
+        <MiniGame />
         <Fusion />
       </div>
     </section>

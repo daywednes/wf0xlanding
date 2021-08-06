@@ -10,7 +10,7 @@
               <swiper-slide>
                 <div class="scr-thumb">
                   <img
-                    src="../assets/img/wf0x/feature/t1.png"
+                    src="../assets/img/wf0x/Card/c_gea.png"
                     alt="screenshot thumb"
                   />
                 </div>
@@ -26,7 +26,7 @@
               <swiper-slide>
                 <div class="scr-thumb">
                   <img
-                    src="../assets/img/wf0x/feature/t2.png"
+                    src="../assets/img/wf0x/Card/c_ibra.png"
                     alt="screenshot thumb"
                   />
                 </div>
@@ -42,7 +42,7 @@
               <swiper-slide>
                 <div class="scr-thumb">
                   <img
-                    src="../assets/img/wf0x/feature/t3.png"
+                    src="../assets/img/wf0x/Card/c_salad.png"
                     alt="screenshot thumb"
                   />
                 </div>
