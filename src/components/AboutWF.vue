@@ -1,6 +1,7 @@
 <template>
   <div
     class="screenshot-style-2 bg-cover section live-footer-2"
+    style="padding-bottom: 15%"
   >
     <div class="container">
       <div class="row">

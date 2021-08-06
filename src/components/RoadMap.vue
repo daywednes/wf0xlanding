@@ -1,5 +1,8 @@
 <template>
-  <section class="feature-style-2 bg-cover section">
+  <section
+    class="feature-style-2 bg-cover section live-footer"
+    style="padding-bottom:15%"
+  >
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -13,7 +16,7 @@
         <div class="col-lg-8">
           <div class="feture-thumb">
             <img
-              src="../assets/img/wf0x/character/live-tournament2.png"
+              src="../assets/img/wf0x/character/live-tournament.png"
               alt="feature thumb"
               style="max-height:80vh"
             />
