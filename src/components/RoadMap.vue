@@ -12,7 +12,11 @@
       <div class="row align-items-center">
         <div class="col-lg-8">
           <div class="feture-thumb">
-            <img src="../assets/img/wf0x/roadmap.png" alt="feature thumb" />
+            <img
+              src="../assets/img/wf0x/character/live-tournament2.png"
+              alt="feature thumb"
+              style="max-height:80vh"
+            />
           </div>
         </div>
         <div class="col-lg-4">
@@ -49,46 +53,34 @@ export default {
       },
       sinFeatures: [
         {
-          title: "ADVANCED SETTINGS",
+          title: "Q4 2021",
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-cogs",
         },
         {
-          title: "MESSAGES INBOX",
+          title: "Q2 2022",
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-envelope-o",
         },
         {
-          title: "MEDIA PLAYER",
+          title: "Q3 2022",
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-play-circle-o",
         },
         {
-          title: "LIVE CHAT MESSAGES",
+          title: "Q1 2023",
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-comments",
         },
         {
-          title: "WEATHER ON-THE-GO",
+          title: "Q4 2023",
           desc:
             "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
           icon: "fa fa-cloud",
-        },
-        {
-          title: "FRIENDS LIST",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
-          icon: "fa fa-user-plus",
-        },
-        {
-          title: "EVENTS CALENDAR",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
-          icon: "fa fa-calendar-check-o",
         },
       ],
     };

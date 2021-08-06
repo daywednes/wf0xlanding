@@ -9,11 +9,17 @@
               <div class="widget-body">
                 <ul class="widget-info">
                   <li>
-                    <strong>Adddress:</strong
-                    ><span>40 Sreet 133/2 NewYork City,United States.</span>
+                    <strong>Adddress:</strong>
+                    <!-- <span>40 Sreet 133/2 NewYork City,United States.</span> -->
                   </li>
-                  <li><strong>Phone :</strong>(+800) 123 456 789</li>
-                  <li><strong>Email :</strong>demo@domain.com</li>
+                  <li>
+                    <strong>Phone :</strong>
+                    <!-- (+800) 123 456 789 -->
+                  </li>
+                  <li>
+                    <strong>Email :</strong>
+                    <!-- demo@domain.com -->
+                  </li>
                 </ul>
               </div>
             </div>
@@ -24,7 +30,7 @@
               <h5 class="widget-title">OUR SERVICE</h5>
               <div class="widget-body">
                 <ul class="widget-info useful-link">
-                  <li><a href="#">Dental</a></li>
+                  <!-- <li><a href="#">Dental</a></li>
                   <li><a href="#">Neurology</a></li>
                   <li><a href="#">Pulmonary</a></li>
                   <li><a href="#">For disabled</a></li>
@@ -33,7 +39,7 @@
                   <li><a href="#">Cardiology</a></li>
                   <li><a href="#">X-ray</a></li>
                   <li><a href="#">Pregnancy</a></li>
-                  <li><a href="#">Neurologyal</a></li>
+                  <li><a href="#">Neurologyal</a></li> -->
                 </ul>
               </div>
             </div>
@@ -44,8 +50,8 @@
               <h5 class="widget-title">OUR NEWSLETTER</h5>
               <div class="widget-body newsletter-widget">
                 <p>
-                  Nam liber tempor cum soluta nobis eleifend option congue nihil
-                  imperdiet doming id quod.
+                  <!-- Nam liber tempor cum soluta nobis eleifend option congue nihil
+                  imperdiet doming id quod. -->
                 </p>
                 <form class="newsletter-form">
                   <input
@@ -72,9 +78,10 @@
           <div class="col-md-6 order-2 order-md-1">
             <div class="copyright">
               <p>
-                &copy; 2021 <b class="text-white">Fantasic</b> Made with
+                &copy; 2021 <b class="text-white">Fantasic</b>
+                <!-- Made with
                 <i class="fa fa-heart text-danger"></i> by
-                <a href="https://hasthemes.com/"><b>HasThemes</b></a>
+                <a href="https://hasthemes.com/"><b>HasThemes</b></a> -->
               </p>
             </div>
           </div>

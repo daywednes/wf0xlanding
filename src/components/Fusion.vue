@@ -13,7 +13,10 @@
           </div>
         </div>
       </div>
-      <div class="header-content">
+      <div
+        class="header-content text-center"
+        style="max-width: 100%; margin:30px 20%"
+      >
         <h2 style="color:white;">FUSION</h2>
       </div>
       <br />

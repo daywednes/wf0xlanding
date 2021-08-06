@@ -1,5 +1,5 @@
 <template>
-  <div class="latest-blog-area section section-padding">
+  <div class="latest-blog-area section section-padding  live-footer">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -12,19 +12,20 @@
               />
             </div>
 
-            <div class=" text-center ">
-              <div class="header-content">
-                <h2 style="color:white;overflow-wrap: anywhere;">
-                  TRAINING
-                </h2>
-              </div>
-              <p class="header-detail text-center">
-                “Users can train robots by joining some mini games. You will
-                need to select which robots you want to train, pay certain
-                resources based on robots and get attribute increases for
-                selected robots based on your result in mini games”
-              </p>
+            <div
+              class="header-content text-center"
+              style="max-width: 100%; margin:30px 20%"
+            >
+              <h2 style="color:white;overflow-wrap: anywhere;">
+                TRAINING
+              </h2>
             </div>
+            <p class="header-detail text-center" style="color:white;">
+              “Users can train robots by joining some mini games. You will need
+              to select which robots you want to train, pay certain resources
+              based on robots and get attribute increases for selected robots
+              based on your result in mini games”
+            </p>
           </div>
         </div>
       </div>

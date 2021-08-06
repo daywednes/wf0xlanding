@@ -41,7 +41,7 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 @media (max-width: 500px) {
   .live-footer {

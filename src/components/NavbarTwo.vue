@@ -166,7 +166,7 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/header.scss";
 .wflogo {
-  height: 118px;
+  height: 50px;
   // background: rgb(2, 0, 36);
   // background: linear-gradient(
   //   0deg,
@@ -174,7 +174,6 @@ export default {
   //   rgba(9, 9, 121, 1) 0%,
   //   rgba(205, 0, 255, 1) 100%
   // );
-  padding: 10px;
 }
 .play-btn {
   background-image: url("../assets/img/wf0x/button_play.png");
