@@ -6,7 +6,9 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <button class="submit-btn play-btn">Play</button>
+          <button class="submit-btn play-btn" @click="goTo('/coming-soon')">
+            Play
+          </button>
           <!-- single slider item -->
           <!-- <carousel
             class="hero-carousel"
@@ -115,6 +117,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    goTo: function(url) {
+      this.$router.push(url);
+    },
   },
 };
 </script>
