@@ -5,7 +5,8 @@
   >
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 text-center">
+          <button class="submit-btn play-btn">Play</button>
           <!-- single slider item -->
           <!-- <carousel
             class="hero-carousel"
@@ -128,10 +129,10 @@ export default {
   height: 100vh;
 }
 .bgimg2 {
-  background-image: url("../assets/img/wf0x/rieng-bn.png");
-  background-position: initial;
+  background-image: url("../assets/img/wf0x/banner.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
+  background-size: cover;
+  height: 85vh;
 }
 </style>
