@@ -20,7 +20,7 @@
             <div class="text-center">
               <p
                 class="header-detail text-center"
-                style="padding:0px 30px; color: white"
+                style="padding:0px 30px;"
               >
                 “Live tournament place base on real league (Premier League,
                 Euro, World Cup,...) and evaluated based on the players' actual
@@ -37,7 +37,7 @@
 
 <style>
 .live-footer {
-  background-image: url("../assets/img/wf0x/hn.png");
+  /* background-image: url("../assets/img/wf0x/hn.png"); */
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;

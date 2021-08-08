@@ -176,7 +176,7 @@
   }
 
   .about-content {
-    padding-left: 15px;
+    text-align: -webkit-center;
 
     // responsive
     @media #{$sm-device} {

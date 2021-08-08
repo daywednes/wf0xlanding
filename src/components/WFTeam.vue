@@ -5,7 +5,8 @@
       <!-- <div class="header-content">
         <h2 style="color:white;">TEAM</h2>
       </div> -->
-      <div class="row">
+      <div class="row" 
+            style="padding-bottom: 10%;">
         <!-- single item start -->
         <div
           v-for="(about, abouts) in abouts"
@@ -20,8 +21,8 @@
               </h6>
               <p style="color:white; font-size: large;">{{ about.desc }}</p>
                -->
-              <div class="header-content">
-                <h4 style="color:white;">{{ about.title }}</h4>
+              <div class="header-content" style="margin:10px;">
+                <h4 style="color:white; ">{{ about.title }}</h4>
               </div>
               <h5 class="team-desc text-center">
                 {{ about.desc }}
@@ -108,7 +109,7 @@ export default {
 @import "../assets/scss/components/about.scss";
 
 .team-desc {
-  color: #696969;
+  color: #6D6D96;
   white-space: pre-line;
   border-top-style: double;
   border-bottom-style: double;

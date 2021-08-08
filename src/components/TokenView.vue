@@ -15,7 +15,7 @@
             </div> -->
             <p
               class="header-detail text-center"
-              style=" padding:50px; color:white"
+              style=" padding:50px;"
             >
               “F0x token is the main in-game currency. It will be used for
               trading, exchanging, improving the Pets and their special

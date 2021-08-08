@@ -1,7 +1,6 @@
 <template>
   <div
-    class="screenshot-style-2 bg-cover section live-footer-2"
-    style="padding-bottom: 15%"
+    class="screenshot-style-2 bg-cover section live-footer-2" 
   >
     <div class="container">
       <div class="row">
@@ -11,26 +10,33 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-7">
+          <div class="text-center">
+            <p
+              class="header-detail"
+              style="padding-bottom: 50px; text-align: left; font-size:x-large;"
+            >
+              “World fantasy 0x (wf0x) is a global fantasy football game where
+              you can create your hero team with wf0x robots. it will interact
+              directly with the performance and ability of football players in
+              the real world. managing your own football team, making them
+              stronger throughout interesting mini games and functions.
+
+              <br />
+              <br />
+              Joining great tournaments based on the live seasons and
+              tournaments based on your smart strategies, you can earn more
+              resources and create more real value in this game as well as the
+              next phases.”
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5">
           <img
             src="../assets/img/wf0x/character/live-tournament.png"
             alt="doctor thumb"
             style="max-height:600px;"
           />
-        </div>
-        <div class="col-md-6">
-          <div class="text-center">
-            <p class="header-detail text-center" style="padding-bottom: 50px">
-              “WORLD FANTASY 0X (WF0X) IS A GLOBAL FANTASY FOOTBALL GAME WHERE
-              YOU CAN CREATE YOUR HERO TEAM WITH WF0X ROBOTS. IT WILL INTERACT
-              DIRECTLY WITH THE PERFORMANCE AND ABILITY OF FOOTBALL PLAYERS IN
-              THE REAL WORLD. MANAGING YOUR OWN FOOTBALL TEAM, MAKING THEM
-              STRONGER THROUGHOUT INTERESTING MINI GAMES AND FUNCTIONS. JOINING
-              GREAT TOURNAMENTS BASED ON THE LIVE SEASONS AND TOURNAMENTS BASED
-              ON YOUR SMART STRATEGIES, YOU CAN EARN MORE RESOURCES AND CREATE
-              MORE REAL VALUE IN THIS GAME AS WELL AS THE NEXT PHASES.”
-            </p>
-          </div>
         </div>
       </div>
     </div>
@@ -79,7 +85,7 @@ export default {
 </script>
 <style>
 .live-footer-2 {
-  background-image: url("../assets/img/wf0x/hn.png");
+  /* background-image: url("../assets/img/wf0x/hn.png"); */
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;

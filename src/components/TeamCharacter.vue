@@ -1,5 +1,5 @@
 <template>
-  <section class="team-area fix section character-bg" id="character">
+  <section class="team-area fix section wf-container" id="character">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -14,7 +14,8 @@
         <div class="col-12">
           <carousel
             class="doctor-team-carousel"
-            :item="4"
+            style="padding: 10% 0;"
+            :item="5"
             :nav="false"
             :dots="false"
             :autoplay="true"
@@ -22,8 +23,8 @@
             :loop="true"
             :responsive="{
               0: { items: 1 },
-              576: { items: 2 },
-              768: { items: 4 },
+              576: { items: 3 },
+              768: { items: 3 },
             }"
           >
             <div
@@ -35,7 +36,7 @@
                 <img
                   :src="doctor.thumb"
                   alt="doctor thumb"
-                  style="max-height:700px;max-width:180px; margin: auto;"
+                  style="max-height:600px;max-width:180px; margin: auto;"
                 />
                 <div class="doctor-content">
                   <h6 class="title">{{ doctor.title }}</h6>

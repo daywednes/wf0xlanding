@@ -5,7 +5,7 @@
 
     <!-- slider section -->
     <HeroBannerFive />
-    <div class="wf-container3 div-shadow">
+    <div class="wf-container div-shadow">
       <AboutWF />
     </div>
     <section id="feature">
@@ -16,7 +16,7 @@
       <!-- <div class="wf-container2 div-shadow">
       </div> -->
       <!-- <div class="wf-container4 div-shadow"></div> -->
-      <div class="wf-container3 div-shadow">
+      <div class="wf-container div-shadow">
         <MiniGame />
         <Fusion />
       </div>
@@ -24,15 +24,15 @@
 
     <TeamCharacter class="div-shadow" />
 
-    <section id="roadmap" class="wf-container3 div-shadow">
+    <section id="roadmap" class="wf-container div-shadow">
       <RoadMap />
     </section>
 
-    <section id="tokenView" class="wf-container3 div-shadow">
+    <section id="tokenView" class="wf-container div-shadow">
       <TokenView />
       <TokenEconmics />
     </section>
-    <section id="wfteam" class="wf-container2 div-shadow">
+    <section id="wfteam" class="wf-container div-shadow">
       <WFTeam />
     </section>
     <FooterTwo />
@@ -81,8 +81,7 @@ export default {
   background-size: cover;
   color: white !important;
   padding: 5px 20px;
-  margin: 20px 0px;
-  max-width: 500px;
+  margin: 15px 20%;
   overflow-wrap: anywhere;
   text-align: center;
 }
@@ -98,8 +97,7 @@ export default {
   padding: 20px;
   font-weight: bold;
   font-size: 42px;
-  margin-top: 100px;
-  /* margin-left: -20%; */
+  margin: 50px 0px 30px 0px;
   overflow-wrap: anywhere;
 }
 
@@ -111,10 +109,10 @@ export default {
 } */
 
 .header-detail {
-  font-size: large;
-  text-transform: uppercase;
+  font-size: x-large;
+  /* text-transform: uppercase; */
   font-weight: bold;
-  color: #696969;
+  color: #6d6d96;
 }
 .wf-container {
   background-image: url("../assets/img/wf0x/background-2.png");

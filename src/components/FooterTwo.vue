@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="footer-widget-area section-padding" :class="FooterStyle">
+    <div class="footer-widget-area" style="padding: 3%;" :class="FooterStyle">
       <div class="container">
         <div class="row mtn-40">
           <div class="col-lg-4">
