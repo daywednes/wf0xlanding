@@ -2,32 +2,31 @@
   <div class="feature-style-2 bg-cover section live-footer">
     <!-- <h1 class="title header-content2">FUSION</h1> -->
 
-    <div class="row">
-      <div class="col-8 mx-auto">
-        <div class="screenshot-gallery text-center">
-          <img
-            src="../assets/img/wf0x/feature/L4.png"
-            alt="screenshot thumb"
-            style="max-height:500px;"
-          />
+    <div class="container">
+      <div class="row">
+        <div class="col-8 mx-auto">
+          <div class="screenshot-gallery text-center">
+            <img
+              src="../assets/img/wf0x/feature/L4.png"
+              alt="screenshot thumb"
+              style="max-height:500px;"
+            />
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="header-content text-center"
-      style="max-width: 100%; margin:30px 20%"
-    >
-      <h2 style="color:white;">FUSION</h2>
-    </div>
-    <br />
-    <div class="row">
-      <div class="col-8 mx-auto">
-        <div class="text-center">
-          <p class="header-detail text-center" style="color:white;">
-            “Game tournament is win-lose by game formula(addition current
-            performance if any). There are weekly, monthly, world tournaments
-            and grouping users in different groups based on their strength.”
-          </p>
+      <div class="header-content text-center">
+        <h2 style="color:white;">FUSION</h2>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="text-center">
+            <p class="header-detail text-center">
+              “Game tournament is win-lose by game formula(addition current
+              performance if any). There are weekly, monthly, world tournaments
+              and grouping users in different groups based on their strength.”
+            </p>
+          </div>
         </div>
       </div>
     </div>

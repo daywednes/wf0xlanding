@@ -1,7 +1,6 @@
 <template>
   <section
     class="feature-style-2 bg-cover section live-footer"
-    style="padding-bottom:15%"
   >
     <div class="container">
       <div class="row">
@@ -97,7 +96,7 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/feature.scss";
 .mobile-description {
-  color: #696969 !important;
+  color: #6D6D96 !important;
 }
 @media (max-width: 500px) {
   .mobile-description {
