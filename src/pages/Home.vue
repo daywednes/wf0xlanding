@@ -11,6 +11,8 @@
     <section id="feature">
       <div class="wf-container div-shadow">
         <GameTournament />
+      </div>
+      <div class="wf-container div-shadow">
         <LiveTournament />
       </div>
       <!-- <div class="wf-container2 div-shadow">
@@ -18,6 +20,8 @@
       <!-- <div class="wf-container4 div-shadow"></div> -->
       <div class="wf-container div-shadow">
         <MiniGame />
+      </div>
+      <div class="wf-container div-shadow">
         <Fusion />
       </div>
     </section>
@@ -28,9 +32,13 @@
       <RoadMap />
     </section>
 
-    <section id="tokenView" class="wf-container div-shadow">
-      <TokenView />
-      <TokenEconmics />
+    <section id="tokenView">
+      <div class="wf-container div-shadow">
+        <TokenView />
+      </div>
+      <div class="wf-container div-shadow">
+        <TokenEconmics />
+      </div>
     </section>
     <section id="wfteam" class="wf-container div-shadow">
       <WFTeam />
@@ -115,7 +123,7 @@ export default {
   color: #6d6d96;
 }
 .wf-container {
-  background-image: url("../assets/img/wf0x/background-2.png");
+  background-image: url("../assets/img/wf0x/BG3.png");
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
