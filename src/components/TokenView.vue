@@ -13,10 +13,7 @@
             <!-- <div class="header-content">
               <h2 style="color:white;">F0x TOKEN</h2>
             </div> -->
-            <p
-              class="header-detail text-center"
-              style=" padding:50px;"
-            >
+            <p class="header-detail text-center" style=" padding:50px;">
               “F0x token is the main in-game currency. It will be used for
               trading, exchanging, improving the Pets and their special
               qualities, mainly in the first phase.”
@@ -32,40 +29,7 @@
 export default {
   name: "LiveTournament",
   data() {
-    return {
-      blogs: [
-        {
-          thumb: require("../assets/img/home-medical/blog/1.jpg"),
-          date: "14 FEB",
-          icon: "fa fa-comment",
-          comment: "12",
-          title: "Duis autem vel eum iriure dolor.",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam.",
-          link: "#",
-        },
-        {
-          thumb: require("../assets/img/home-medical/blog/2.jpg"),
-          date: "18 JUN",
-          icon: "fa fa-comment",
-          comment: "32",
-          title: "Autem duis vel eum dolor iriure.",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam.",
-          link: "#",
-        },
-        {
-          thumb: require("../assets/img/home-medical/blog/3.jpg"),
-          date: "16 MAR",
-          icon: "fa fa-comment",
-          comment: "10",
-          title: "Iriure duis autem vel eum dolor.",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam.",
-          link: "#",
-        },
-      ],
-    };
+    return {};
   },
 };
 </script>
