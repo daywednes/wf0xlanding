@@ -1,10 +1,10 @@
 <template>
   <div class="main-container">
     <!-- Navbar section -->
-    <NavbarTwo />
+    <FantasyNavbar />
 
     <!-- slider section -->
-    <HeroBannerFive />
+    <FantasyHeroBanner />
     <div class="wf-container div-shadow">
       <AboutWF />
     </div>
@@ -43,24 +43,24 @@
     <section id="wfteam" class="wf-container div-shadow">
       <WFTeam />
     </section>
-    <FooterTwo />
+    <FantasyFooter />
   </div>
 </template>
 
 <script>
-import NavbarTwo from "../components/NavbarTwo";
+import FantasyNavbar from "../components/FantasyNavbar";
 import AboutWF from "../components/AboutWF";
 import GameTournament from "../components/GameTournament";
 import MiniGame from "../components/MiniGame";
 import Fusion from "../components/Fusion";
-import HeroBannerFive from "../components/HeroBannerFive";
+import FantasyHeroBanner from "../components/FantasyHeroBanner";
 import RoadMap from "../components/RoadMap";
 import TeamCharacter from "../components/TeamCharacter";
 import LiveTournament from "../components/LiveTournament";
 import TokenEconmics from "../components/TokenEconmics";
 import WFTeam from "../components/WFTeam";
 import TokenView from "../components/TokenView";
-import FooterTwo from "../components/FooterTwo";
+import FantasyFooter from "../components/FantasyFooter";
 
 export default {
   name: "app",
@@ -69,15 +69,15 @@ export default {
     GameTournament,
     MiniGame,
     Fusion,
-    NavbarTwo,
-    HeroBannerFive,
+    FantasyNavbar,
+    FantasyHeroBanner,
     RoadMap,
     TeamCharacter,
     LiveTournament,
     TokenEconmics,
     WFTeam,
     TokenView,
-    FooterTwo,
+    FantasyFooter,
   },
 };
 </script>

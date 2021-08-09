@@ -72,7 +72,7 @@
 <script>
 import carousel from "vue-owl-carousel";
 export default {
-  name: "HeroBannerFive",
+  name: "FantasyHeroBanner",
   components: {
     carousel,
   },

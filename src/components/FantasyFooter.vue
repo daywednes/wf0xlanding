@@ -100,7 +100,7 @@
 
 <script>
 export default {
-  name: "FooterTwo",
+  name: "FantasyFooter",
   props: ["FooterStyle"],
   data() {
     return {
