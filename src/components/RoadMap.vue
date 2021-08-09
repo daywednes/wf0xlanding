@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="feature-style-2 bg-cover section live-footer"
-  >
+  <section class="feature-style-2 bg-cover section live-footer">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -35,8 +33,10 @@
                 <div class="header-content">
                   <h4 style="color:white;">{{ sinFeature.title }}</h4>
                 </div>
-                <h5 class="mobile-description">
+                <h5 class="mobile-description text-center">
+                  <!-- <span><img src="../assets/img/icon/Asset5.png"/></span> -->
                   {{ sinFeature.desc }}
+                  <!-- <span><img src="../assets/img/icon/Asset4.png"/></span> -->
                 </h5>
               </div>
             </div>
@@ -57,33 +57,33 @@ export default {
       },
       sinFeatures: [
         {
-          title: "Q4 2021",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          title: "Q3 2021",
+          desc: "Collect & Breeding & Marketplace",
           icon: "fa fa-cogs",
         },
         {
-          title: "Q2 2022",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          title: "Q4 2021",
+          desc: "Introduce Mini-game Events, Fantasy Tournaments",
+          icon: "fa fa-cogs",
+        },
+        {
+          title: "Q1 2022",
+          desc: "More Mini-game Events, Launch the Fusion Feature.",
           icon: "fa fa-envelope-o",
         },
         {
           title: "Q3 2022",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          desc: "Introduce League Tournaments.",
           icon: "fa fa-play-circle-o",
         },
         {
-          title: "Q1 2023",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          title: "Q4 2022",
+          desc: "Introduce Healthcare: Use game tokens to increase stamina.",
           icon: "fa fa-comments",
         },
         {
-          title: "Q4 2023",
-          desc:
-            "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.",
+          title: "Q1 2023",
+          desc: "Introduce new robot types & customization options.",
           icon: "fa fa-cloud",
         },
       ],
@@ -96,11 +96,11 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/feature.scss";
 .mobile-description {
-  color: #6D6D96 !important;
+  color: #6d6d96 !important;
 }
 @media (max-width: 500px) {
   .mobile-description {
-    color: white !important;
+    // color: white !important;
   }
 }
 </style>

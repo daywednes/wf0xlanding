@@ -13,10 +13,12 @@
             <!-- <div class="header-content">
               <h2 style="color:white;">F0x TOKEN</h2>
             </div> -->
-            <p class="header-detail text-center" style=" padding:50px;">
-              “F0x token is the main in-game currency. It will be used for
+            <p class="header-detail text-center">
+              <span><img src="../assets/img/icon/Asset5.png"/></span>
+              F0x token is the main in-game currency. It will be used for
               trading, exchanging, improving the Pets and their special
-              qualities, mainly in the first phase.”
+              qualities, mainly in the first phase.
+              <span><img src="../assets/img/icon/Asset4.png"/></span>
             </p>
           </div>
         </div>

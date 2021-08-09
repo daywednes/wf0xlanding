@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-12">
           <carousel
-            class="doctor-team-carousel"
+            class="doctor-team-carousel character-bg"
             style="padding: 10% 0;"
             :item="5"
             :nav="false"
@@ -36,7 +36,7 @@
                 <img
                   :src="doctor.thumb"
                   alt="doctor thumb"
-                  style="max-height:600px;max-width:180px; margin: auto;"
+                  style="max-height:800px;max-width:180px; margin: auto;"
                 />
                 <div class="doctor-content">
                   <h6 class="title">{{ doctor.title }}</h6>
@@ -64,22 +64,22 @@ export default {
         {
           title: "COMMON ROBOT",
           designation: "Deltal Specialist",
-          thumb: require("../assets/img/wf0x/character/c1.png"),
+          thumb: require("../assets/img/wf0x/character/Asset24.png"),
         },
         {
           title: "RARE ROBOT",
           designation: "Deltal Specialist",
-          thumb: require("../assets/img/wf0x/character/c2.png"),
+          thumb: require("../assets/img/wf0x/character/Asset21.png"),
         },
         {
           title: "EPIC ROBOT",
           designation: "Deltal Specialist",
-          thumb: require("../assets/img/wf0x/character/c3.png"),
+          thumb: require("../assets/img/wf0x/character/Asset22.png"),
         },
         {
           title: "LEGEND ROBOT",
           designation: "Deltal Specialist",
-          thumb: require("../assets/img/wf0x/character/c4.png"),
+          thumb: require("../assets/img/wf0x/character/Asset23.png"),
         },
       ],
     };
@@ -91,10 +91,9 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/team.scss";
 .character-bg {
-  background-image: url("../assets/img/wf0x/character/background_character.png");
-  background-position: bottom;
+  background-image: url("../assets/img/wf0x/Asset18.png");
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 800px;
+  background-size: auto;
 }
 </style>
