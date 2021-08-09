@@ -14,18 +14,17 @@
           <br />
           <div>
             <div class="header-content">
-              <h2 style="color:white;">LIVE TOURNAMENT</h2>
+              <h2 style="color:white;">FANTASY TOURNAMENT</h2>
             </div>
             <br />
             <div class="text-center">
-              <p
-                class="header-detail text-center"
-                style="padding:0px 30px;"
-              >
-                “Live tournament place base on real league (Premier League,
+              <p class="header-detail text-center">
+                <span><img src="../assets/img/icon/Asset5.png"/></span>
+                Fantasy tournament place base on real league (Premier League,
                 Euro, World Cup,...) and evaluated based on the players' actual
                 performance during the season and according to a scale
-                specified”
+                specified.
+                <span><img src="../assets/img/icon/Asset4.png"/></span>
               </p>
             </div>
           </div>

@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="latest-blog-area section section-padding  live-footer"
-    style="padding-bottom:6%"
-  >
+  <div class="latest-blog-area section  live-footer" style="padding-bottom:6%">
     <div class="container">
       <div class="row ">
         <div class="col-12">
@@ -14,21 +11,22 @@
                 alt="doctor thumb"
               />
             </div>
+            <div style="max-width: 100%; margin:15px 8%">
+              <div class="header-content text-center">
+                <h2 style="color:white;overflow-wrap: anywhere;">
+                  TRAINING
+                </h2>
+              </div>
 
-            <div
-              class="header-content text-center"
-              style="max-width: 100%; margin:15px 20%"
-            >
-              <h2 style="color:white;overflow-wrap: anywhere;">
-                TRAINING
-              </h2>
+              <p class="header-detail text-center">
+                <span><img src="../assets/img/icon/Asset5.png"/></span>
+                Users can train robots by joining some mini games. You will need
+                to select which robots you want to train, pay certain resources
+                based on robots and get attribute increases for selected robots
+                based on your result in mini games
+                <span><img src="../assets/img/icon/Asset4.png"/></span>
+              </p>
             </div>
-            <p class="header-detail text-center">
-              “Users can train robots by joining some mini games. You will need
-              to select which robots you want to train, pay certain resources
-              based on robots and get attribute increases for selected robots
-              based on your result in mini games”
-            </p>
           </div>
         </div>
       </div>

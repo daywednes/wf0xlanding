@@ -47,7 +47,7 @@ export default {
           title: "Binh Doan",
           desc: "Project Manager \n",
           icon: "fa fa-pagelines",
-          img: require("../assets/img/wf0x/team/team-avar2.png"),
+          img: require("../assets/img/wf0x/team/BinhDoan.jpg"),
         },
         {
           title: "Vu Hoang",
@@ -89,7 +89,7 @@ export default {
           title: "Minh Doan",
           desc: "Advisor \n" + "Genesisbuilders  \n" + "Incubator",
           icon: "fa fa-apple",
-          img: require("../assets/img/wf0x/team/team-avar.png"),
+          img: require("../assets/img/wf0x/team/team-avar2.png"),
         },
         // {
         //   title: "UNIQUE DESIGN",

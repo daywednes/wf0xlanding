@@ -5,43 +5,44 @@
 
     <!-- slider section -->
     <FantasyHeroBanner />
-    <div class="wf-container div-shadow">
-      <AboutWF />
+    <div class="wf-container2 div-shadow">
+      <AboutWF class="wf-container4" />
     </div>
     <section id="feature">
-      <div class="wf-container div-shadow">
-        <GameTournament />
+      <div class="wf-container3 div-shadow">
+        <GameTournament class="wf-container4" />
       </div>
-      <div class="wf-container div-shadow">
-        <LiveTournament />
+      <div class="div-shadow">
+        <LiveTournament class="wf-container4" />
       </div>
       <!-- <div class="wf-container2 div-shadow">
       </div> -->
       <!-- <div class="wf-container4 div-shadow"></div> -->
-      <div class="wf-container div-shadow">
+      <div class="wf-container3 div-shadow">
         <MiniGame />
       </div>
-      <div class="wf-container div-shadow">
-        <Fusion />
-      </div>
+      s
+      <Fusion class="wf-container4" />
     </section>
 
-    <TeamCharacter class="div-shadow" />
+    <div class="wf-container3 div-shadow">
+      <TeamCharacter class="div-shadow wf-container4" />
+    </div>
 
-    <section id="roadmap" class="wf-container div-shadow">
+    <section id="roadmap" class="wf-container5 div-shadow">
       <RoadMap />
     </section>
 
     <section id="tokenView">
-      <div class="wf-container div-shadow">
+      <div class="wf-container4 div-shadow">
         <TokenView />
       </div>
-      <div class="wf-container div-shadow">
+      <div class="wf-container3 div-shadow">
         <TokenEconmics />
       </div>
     </section>
-    <section id="wfteam" class="wf-container div-shadow">
-      <WFTeam />
+    <section id="wfteam" class="wf-container3 div-shadow">
+      <WFTeam class="wf-container4" />
     </section>
     <FantasyFooter />
   </div>
@@ -95,7 +96,7 @@ export default {
 }
 
 .header-content2 {
-  background-image: url("../assets/img/wf0x/l1.png");
+  background-image: url("../assets/img/wf0x/l2.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,41 +122,47 @@ export default {
   /* text-transform: uppercase; */
   font-weight: bold;
   color: #6d6d96;
+  padding: 20px;
+  padding: 0px 8%;
 }
 .wf-container {
-  background-image: url("../assets/img/wf0x/BG3.png");
-  /* background-position: center; */
+  background-image: url("../assets/img/bg/screenshot-bg.jpg");
+  /* background-image: url("../assets/img/wf0x/BG3.png"); */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px;
 }
 .wf-container2 {
-  background-image: url("../assets/img/wf0x/BG3.png");
+  /* background-image: url("../assets/img/wf0x/BG3.png"); */
+  background-image: url("../assets/img/wf0x/Asset/Asset111.png");
   /* background-position: center; */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding-bottom: 30px;
 }
 .wf-container3 {
-  background-image: url("../assets/img/wf0x/BG4.png");
-  background-position: center;
+  /* background-image: url("../assets/img/wf0x/BG4.png"); */
+  background-image: url("../assets/img/wf0x/Asset/Asset6.png");
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 50px;
 }
 .wf-container4 {
-  background-image: url("../assets/img/wf0x/BG5.png");
-  background-position: center;
+  /* background-image: url("../assets/img/wf0x/BG4.png"); */
+  background-image: url("../assets/img/wf0x/Asset/Asset31.png");
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 50px;
 }
 
 .wf-container5 {
-  background-image: url("../assets/img/wf0x/background-team.jpg");
-  background-position: center;
+  background-image: url("../assets/img/wf0x/Asset/Asset2.png");
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .wf-token {
   background-image: url("../assets/img/wf0x/token.png");

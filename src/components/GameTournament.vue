@@ -67,12 +67,14 @@
         <div class="col-12">
           <div class="text-center">
             <div class="header-content">
-              <h2 style="color:white;">GAME TOURNAMENT</h2>
+              <h2 style="color:white;">LEAGUE TOURNAMENT</h2>
             </div>
-            <p class="header-detail text-center">
-              “Game tournament is win-lose by game formula(addition current
-              performance if any). There are weekly, monthly, world tournaments
-              and grouping users in different groups based on their strength.”
+            <p class="header-detail">
+              <span><img src="../assets/img/icon/Asset5.png"/></span>
+              Strategize and manage your team to win against other players
+              online. There are weekly, monthly, world tournaments and grouping
+              users in different groups based on their strength.
+              <span><img src="../assets/img/icon/Asset4.png"/></span>
             </p>
           </div>
         </div>

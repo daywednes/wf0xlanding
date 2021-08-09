@@ -22,9 +22,11 @@
         <div class="col-10 mx-auto">
           <div class="text-center">
             <p class="header-detail text-center">
-              “Game tournament is win-lose by game formula(addition current
+              <span><img src="../assets/img/icon/Asset5.png"/></span> Game
+              tournament is win-lose by game formula(addition current
               performance if any). There are weekly, monthly, world tournaments
-              and grouping users in different groups based on their strength.”
+              and grouping users in different groups based on their strength.
+              <span><img src="../assets/img/icon/Asset4.png"/></span>
             </p>
           </div>
         </div>
