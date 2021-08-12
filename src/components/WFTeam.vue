@@ -89,7 +89,7 @@ export default {
           title: "Minh Doan",
           desc: "Advisor \n" + "Genesisbuilders  \n" + "Incubator",
           icon: "fa fa-apple",
-          img: require("../assets/img/wf0x/team/team-avar2.png"),
+          img: require("../assets/img/wf0x/team/MinhDoan.jpg"),
         },
         // {
         //   title: "UNIQUE DESIGN",
