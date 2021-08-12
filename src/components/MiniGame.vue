@@ -1,5 +1,5 @@
 <template>
-  <div class="latest-blog-area section  live-footer" style="padding-bottom:6%">
+  <div class="latest-blog-area section  live-footer">
     <div class="container">
       <div class="row ">
         <div class="col-12">
