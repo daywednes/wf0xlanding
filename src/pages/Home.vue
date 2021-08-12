@@ -164,13 +164,6 @@ export default {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.wf-token {
-  background-image: url("../assets/img/wf0x/token.png");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-bottom: 50px;
-}
 
 .div-shadow {
   -moz-box-shadow: inset 0 0 -20px #0c1e46;
