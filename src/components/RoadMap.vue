@@ -13,9 +13,9 @@
         <div class="col-lg-8">
           <div class="feture-thumb">
             <img
-              src="../assets/img/wf0x/Ronaldo.gif"
+              src="../assets/img/wf0x/feature/t2.png"
               alt="feature thumb"
-              style="max-height:75vh"
+              style="height:650px"
             />
           </div>
         </div>
