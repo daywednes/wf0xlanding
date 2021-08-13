@@ -34,8 +34,8 @@
               <li>
                 <a
                   v-on:click="newTab('https://docs.fantasy0x.com/')"
-                  href="#home"
-                  >DOCS</a
+                  href="#wfteam"
+                  >whitepaper</a
                 >
               </li>
               <li class="mini-play d-lg-none">
@@ -200,9 +200,9 @@ export default {
   cursor: pointer;
   color: black;
   padding: 15px 60px;
-  font-size: x-large;
+  font-size: large;
   align-self: center;
-  border-radius: 20px;
+  border-radius: 25px;
   font-weight: bolder;
   color: white !important;
 }

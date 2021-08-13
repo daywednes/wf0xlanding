@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="title header-content2">ABOUT WF0x</h1>
+          <h1 class="title header-content2">ABOUT FANTASY 0X</h1>
         </div>
       </div>
 
@@ -14,19 +14,19 @@
               class="header-detail"
               style="padding-bottom: 50px; text-align: left; font-size:x-large;"
             >
-              <span><img src="../assets/img/icon/Asset5.png"/></span> World
-              fantasy 0x (wf0x) is a global fantasy football game where you can
-              create your hero team with wf0x robots. it will interact directly
-              with the performance and ability of football players in the real
-              world. managing your own football team, making them stronger
-              throughout interesting mini games and functions.
+              <span><img src="../assets/img/icon/Asset5.png"/></span>
+              Fantasy 0x (F0x) is a global fantasy football game where you can
+              create your hero team consisting of F0x AI. It will be directly
+              related to the performance and abilities of football players in
+              the real world.
 
               <br />
               <br />
-              Joining great tournaments based on the live seasons and
-              tournaments based on your smart strategies, you can earn more
-              resources and create more real value in this game as well as the
-              next phases.
+              Players can manage their football teams, making them stronger
+              through interesting mini-games and functions. By joining great
+              tournaments based on live seasons and tournaments, and by relying
+              on your smart strategies, you can earn more resources and create
+              more real value in this game, as well as during its next phases.
               <span><img src="../assets/img/icon/Asset4.png"/></span>
             </p>
           </div>
