@@ -13,12 +13,12 @@
           class="col-lg-6 col-md-6"
         >
           <div class="about-item">
-            <img :src="about.img" style="max-height: 350px; margin: auto" />
+            <img :src="about.img" style="height: 300px; margin: auto" />
             <div class="about-content">
               <div class="header-content">
                 <h4 style="color:white; ">{{ about.title }}</h4>
               </div>
-              <h5 style="color:#6D6D96;">{{ about.desc }}</h5>
+              <h5 style="color:#6D6D96;margin: 0 15%">{{ about.desc }}</h5>
             </div>
           </div>
         </div>
