@@ -32,9 +32,13 @@
               <li><a v-on:click="close_menu()" href="#tokenView">Token</a></li>
               <li><a v-on:click="close_menu()" href="#wfteam">Team</a></li>
               <li>
-                <a v-on:click="close_menu()" href="#support">Support</a>
+                <a
+                  v-on:click="newTab('https://docs.fantasy0x.com/')"
+                  href="#home"
+                  >DOCS</a
+                >
               </li>
-              <li class="mini-play  d-lg-none">
+              <li class="mini-play d-lg-none">
                 <a @click="goTo('/coming-soon')">Play</a>
               </li>
             </ul>
@@ -65,6 +69,10 @@ export default {
   methods: {
     goTo: function(url) {
       this.$router.push(url);
+    },
+    newTab: function(url) {
+      window.open(url, "_blank");
+      this.close_menu();
     },
     // responsive menu script
     display_menu: function() {
