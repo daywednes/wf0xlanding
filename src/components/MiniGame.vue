@@ -7,7 +7,7 @@
             <!-- <h1 class="title header-content2">TRAINING</h1> -->
             <div class=" text-center">
               <img
-                src="../assets/img/wf0x/feature/training.png"
+                src="../assets/img/wf0x/feature/training.jpg"
                 alt="doctor thumb"
               />
             </div>
@@ -42,14 +42,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-.live-div {
-  background-image: url("../assets/img/wf0x/feature/training.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-  min-height: 500px;
-  padding: 250px 20% 0px 20%;
-}
-</style>

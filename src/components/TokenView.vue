@@ -6,7 +6,7 @@
           <h1 class="title header-content2">F0x TOKEN</h1>
           <div class="text-center">
             <img
-              src="../assets/img/wf0x/token2.png"
+              src="../assets/img/wf0x/token.png"
               alt="doctor thumb"
               style="max-height:600px;"
             />
