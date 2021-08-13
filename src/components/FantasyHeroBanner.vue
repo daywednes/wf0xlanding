@@ -52,7 +52,7 @@ export default {
   height: 100vh;
 }
 .bgimg2 {
-  background-image: url("../assets/img/wf0x/Logo&Banner.jpg");
+  background-image: url("../assets/img/wf0x/Logo&Banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -14,16 +14,19 @@
               <div class="widget-body">
                 <ul class="widget-info">
                   <li>
-                    <strong>Adddress:</strong>
-                    <!-- <span>40 Sreet 133/2 NewYork City,United States.</span> -->
+                    <strong>Adddress: </strong>
+                    <span
+                      >208 Nguyễn Hữu Cảnh Street, Ward 22,<br />
+                      Binh Thanh district, Ho Chi Minh City.</span
+                    >
                   </li>
                   <li>
-                    <strong>Phone :</strong>
-                    <!-- (+800) 123 456 789 -->
+                    <strong>Phone: </strong>
+                    (+84) 916 523 797
                   </li>
                   <li>
-                    <strong>Email :</strong>
-                    <!-- demo@domain.com -->
+                    <strong>Email: </strong>
+                    vu@codelight.co
                   </li>
                 </ul>
               </div>
@@ -68,7 +71,9 @@
                 </form>
                 <ul class="footer-social-link">
                   <li v-for="(social, socials) in socials" :key="socials">
-                    <a href="#"><i :class="social.icon"></i></a>
+                    <a v-on:click="newTab(social.url)" href="#wfteam"
+                      ><i :class="social.icon"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -110,12 +115,17 @@ export default {
   data() {
     return {
       socials: [
-        { icon: "fa fa-facebook" },
-        { icon: "fa fa-twitter" },
-        { icon: "fa fa-behance" },
-        { icon: "fa fa-dribbble" },
+        // { icon: "fa fa-facebook" },
+        { icon: "fa fa-twitter", url: "https://twitter.com/fantasy0x" },
+        // { icon: "fa fa-behance" },
+        { icon: "fa fa-telegram", url: "https://twitter.com/fantasy0x" },
       ],
     };
+  },
+  methods: {
+    newTab: function(url) {
+      window.open(url, "_blank");
+    },
   },
 };
 </script>
@@ -125,7 +135,7 @@ export default {
 @import "../assets/scss/components/footer.scss";
 
 .widget-title {
-  color: #39a5ff;
+  color: #6d6d96;
 }
 // li,
 // p,

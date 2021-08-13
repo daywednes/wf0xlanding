@@ -246,7 +246,7 @@
       }
 
       strong {
-        color: $theme-color-7;
+        // color: $theme-color-7;
         font-weight: 700;
         width: 70px;
         display: inline-block;
@@ -283,8 +283,11 @@
         border-color: $bdr-color;
 
         &:hover {
-          background-color: $theme-color-7;
-          border-color: $theme-color-7;
+          // background-color: $theme-color-7;
+          // border-color: $theme-color-7;
+
+          border-color: #6d6d96 !important;
+          background-color: #6d6d96 !important;
         }
       }
     }
@@ -303,7 +306,8 @@
   }
 
   .subscribe-btn {
-    background-color: $theme-color-7;
+    // background-color: $theme-color-7;
+    background-color: #6d6d96 !important;
     padding: 0 20px;
     color: $white;
     height: 40px;
@@ -325,8 +329,10 @@
     li {
       &:hover {
         a {
-          background-color: $theme-color-7;
-          border-color: $theme-color-7;
+          // background-color: $theme-color-7;
+          // border-color: $theme-color-7;
+          border-color: #6d6d96 !important;
+          background-color: #6d6d96 !important;
         }
       }
     }
@@ -354,18 +360,22 @@
 // footer hosting style
 .footer-hosting {
   .widget-title {
+    background-color: #6d6d96 !important;
     &:before {
-      background-color: $theme-color-8;
+      background-color: #6d6d96;
     }
   }
   .widget-info {
+    color: #6d6d96;
     li {
+      color: #6d6d96;
       strong {
-        color: $theme-color-8;
+        // color: $theme-color-8;
+        color: #6d6d96 !important;
       }
       a {
         &:hover {
-          color: $theme-color-8;
+          color: #6d6d96;
         }
       }
 
@@ -377,7 +387,10 @@
       a {
         &:hover {
           background-color: $theme-color-8;
+
           border-color: $theme-color-8;
+          border-color: #6d6d96 !important;
+          background-color: #6d6d96 !important;
         }
       }
     }
@@ -403,4 +416,9 @@
       }
     }
   }
+}
+
+.widget-title:before {
+  background-color: #6d6d96 !important;
+  border-top-style: double !important;
 }

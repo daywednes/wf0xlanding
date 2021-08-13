@@ -37,30 +37,30 @@ export default {
       abouts: [
         {
           title: "In-game Currency",
-          desc: "Most items in the game will be payable using F0x tokens.",
+          desc:
+            "Most items and actions in the game will be carried out using game token (collect, breed, fusion, enter special events)",
           icon: "fa fa-pagelines",
           img: require("../assets/img/wf0x/token/tk1.png"),
         },
         {
           title: "Governance",
           desc:
-            "Vote for new features and settings of the game to earn special rewards. Lock F0x tokens for a certain time to gain voting power.",
+            "Vote for new features and settings of the game to receive special awards",
           icon: "fa fa-laptop",
           img: require("../assets/img/wf0x/token/tk2.png"),
         },
         {
-          title: "Staking",
-          desc:
-            "Become part of the game by staking F0x tokens into pools. Different pools will yield different returns such as new items, new rbots, or F0x tokens.",
-          icon: "fa fa-apple",
-          img: require("../assets/img/wf0x/token/tk3.png"),
-        },
-        {
           title: "Play 2 Earn",
-          desc:
-            "Simply playing can also get you F0x tokens via mission and social mining.",
+          desc: "Receive tokens via in-game mission and social mining",
           icon: "fa fa-paint-brush",
           img: require("../assets/img/wf0x/token/tk4.png"),
+        },
+        {
+          title: "Staking",
+          desc:
+            "Become part of the game by staking tokens in to pools. Pools allow you to yield new items, gain power, and generate new events",
+          icon: "fa fa-apple",
+          img: require("../assets/img/wf0x/token/tk3.png"),
         },
       ],
     };
