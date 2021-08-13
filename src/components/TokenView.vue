@@ -1,5 +1,5 @@
 <template>
-  <div class="latest-blog-area live-footer" style="padding-bottom:6%">
+  <div class="latest-blog-area live-footer">
     <div class="container" style="height: 100%">
       <div class="row">
         <div class="col-12">
@@ -8,7 +8,7 @@
             <img
               src="../assets/img/wf0x/token.png"
               alt="doctor thumb"
-              style="max-height:600px;"
+              style="height:600px;"
             />
             <!-- <div class="header-content">
               <h2 style="color:white;">F0x TOKEN</h2>

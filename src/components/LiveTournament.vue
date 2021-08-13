@@ -1,5 +1,5 @@
 <template>
-  <div class="latest-blog-area live-footer" style="padding-bottom: 6%">
+  <div class="latest-blog-area live-footer">
     <div class="container" style="height: 100%">
       <!-- <h1 class="title header-content2">LIVE TOURNAMENT</h1> -->
       <div class="row">
