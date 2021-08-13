@@ -36,7 +36,7 @@
                 <img
                   :src="doctor.thumb"
                   alt="doctor thumb"
-                  style="max-height:800px;max-width:180px; margin: auto;"
+                  style="max-height:900px;max-width:180px; margin: auto;"
                 />
                 <div class="doctor-content">
                   <h6 class="title">{{ doctor.title }}</h6>

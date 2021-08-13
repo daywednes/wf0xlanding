@@ -12,7 +12,7 @@
               <div class="box-timer">
                 <countdown
                   :time="
-                    new Date('12/12/2022').getTime() - new Date().getTime()
+                    new Date('10/31/2021').getTime() - new Date().getTime()
                   "
                 >
                   <template slot-scope="props">

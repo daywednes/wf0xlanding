@@ -6,9 +6,13 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <button class="submit-btn play-btn" @click="goTo('/coming-soon')">
+          <!-- <button class="submit-btn play-btn" @click="goTo('/coming-soon')">
             Play
-          </button>
+          </button> -->
+          <img
+            style="max-height: 40vh; margin-top: 40vh;"
+            src="../assets/img/wf0x/F0x_Logo_Final.png"
+          />
         </div>
       </div>
     </div>
@@ -48,7 +52,7 @@ export default {
   height: 100vh;
 }
 .bgimg2 {
-  background-image: url("../assets/img/wf0x/banner.jpg");
+  background-image: url("../assets/img/wf0x/Logo&Banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
