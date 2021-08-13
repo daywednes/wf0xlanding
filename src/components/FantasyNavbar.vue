@@ -7,7 +7,7 @@
             <div class="brand-logo">
               <a href="#">
                 <img
-                  src="../assets/img/wf0x/logo2.png"
+                  src="../assets/img/wf0x/Logo_Twitter.png"
                   alt="Brand Logo"
                   class="wflogo"
                 />
@@ -31,11 +31,19 @@
               <li><a v-on:click="close_menu()" href="#roadmap">Road Map</a></li>
               <li><a v-on:click="close_menu()" href="#tokenView">Token</a></li>
               <li><a v-on:click="close_menu()" href="#wfteam">Team</a></li>
-              <!-- <li><a v-on:click="close_menu()" href="#support">Support</a></li> -->
-              <!-- <li class="play-btn">
-                <a @click="goTo('/coming-soon')" style="color: black;">Play</a>
-              </li> -->
+              <li>
+                <a v-on:click="close_menu()" href="#support">Support</a>
+              </li>
+              <li class="mini-play  d-lg-none">
+                <a @click="goTo('/coming-soon')">Play</a>
+              </li>
             </ul>
+            <button
+              @click="goTo('/coming-soon')"
+              class="play-btn main-menu__style-2 d-none d-lg-block mini-play"
+            >
+              PLAY
+            </button>
           </div>
         </div>
       </div>
@@ -162,7 +170,7 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/header.scss";
 .wflogo {
-  height: 50px;
+  height: 120px;
   // background: rgb(2, 0, 36);
   // background: linear-gradient(
   //   0deg,
@@ -171,16 +179,24 @@ export default {
   //   rgba(205, 0, 255, 1) 100%
   // );
 }
+.mini-play {
+  background: linear-gradient(
+    90deg,
+    rgb(51, 139, 211) 5%,
+    rgb(170, 91, 163) 100%
+  );
+  color: white !important;
+}
 .play-btn {
-  background-image: url("../assets/img/wf0x/button_play.png");
-  background-repeat: no-repeat;
-  width: 200px;
   text-align: center;
   cursor: pointer;
-  background-position-y: center;
   color: black;
-  margin-top: 70vh;
-  font-size: xx-large ;
+  padding: 15px 60px;
+  font-size: x-large;
+  align-self: center;
+  border-radius: 20px;
+  font-weight: bolder;
+  color: white !important;
 }
 // .brand-logo {
 //   align-self: start;
