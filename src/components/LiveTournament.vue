@@ -1,13 +1,13 @@
 <template>
   <div class="latest-blog-area live-footer">
-    <div class="container" style="height: 100%">
+    <div class="container" style="padding-top: 200px;">
       <!-- <h1 class="title header-content2">LIVE TOURNAMENT</h1> -->
       <div class="row">
         <div class="col-md-12 text-center">
           <img
             src="../assets/img/wf0x/character/cc.png"
             alt="doctor thumb"
-            style="max-height:600px;"
+            style="max-height:500px;"
           />
         </div>
         <div class="col-md-12">

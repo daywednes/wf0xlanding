@@ -20,11 +20,9 @@
 </template>
 
 <script>
-import carousel from "vue-owl-carousel";
 export default {
   name: "FantasyHeroBanner",
   components: {
-    carousel,
   },
   data() {
     return {

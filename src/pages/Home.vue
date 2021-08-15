@@ -9,20 +9,21 @@
       <AboutWF class="wf-container4" />
     </div>
     <section id="feature">
-      <div class="wf-container3 div-shadow">
-        <GameTournament class="wf-container4" />
-      </div>
-      <div class="div-shadow">
-        <LiveTournament class="wf-container4" />
+      <!-- <div class=" wf-container3 div-shadow">
+      </div> -->
+      <div class="row div-shadow">
+        <GameTournament class="col-md-6" />
+        <LiveTournament class=" col-md-6" />
+        <MiniGame class=" col-md-6" />
+        <Fusion class=" col-md-6" />
       </div>
       <!-- <div class="wf-container2 div-shadow">
       </div> -->
       <!-- <div class="wf-container4 div-shadow"></div> -->
-      <div class="wf-container3 div-shadow">
+      <!-- <div class="wf-container3 div-shadow">
         <MiniGame />
-      </div>
-      s
-      <Fusion class="wf-container4" />
+      </div> -->
+      <!-- <Fusion class="wf-container4" /> -->
     </section>
 
     <div class="wf-container3 div-shadow">

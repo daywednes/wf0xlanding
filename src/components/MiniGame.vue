@@ -9,16 +9,17 @@
               <img
                 src="../assets/img/wf0x/feature/training.jpg"
                 alt="doctor thumb"
+                style="max-height:400px;"
               />
             </div>
-            <div style="max-width: 100%; margin:15px 8%">
+            <div style="max-width: 100%; ">
               <div class="header-content text-center">
                 <h2 style="color:white;overflow-wrap: anywhere;">
                   TRAINING
                 </h2>
               </div>
 
-              <p class="header-detail text-center">
+              <p class="header-detail text-center" style="margin:15px 4%">
                 <span><img src="../assets/img/icon/Asset5.png"/></span>
                 Users can train robots by joining some mini games. You will need
                 to select which robots you want to train, pay certain resources

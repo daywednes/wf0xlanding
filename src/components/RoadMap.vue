@@ -13,7 +13,7 @@
         <div class="col-lg-8">
           <div class="feture-thumb">
             <img
-              src="../assets/img/wf0x/feature/t2.png"
+              src="../assets/img/wf0x/character/debruyne.png"
               alt="feature thumb"
               style="height:650px"
             />
