@@ -118,7 +118,7 @@ export default {
         // { icon: "fa fa-facebook" },
         { icon: "fa fa-twitter", url: "https://twitter.com/fantasy0x" },
         // { icon: "fa fa-behance" },
-        { icon: "fa fa-telegram", url: "https://twitter.com/fantasy0x" },
+        { icon: "fa fa-telegram", url: "https://t.me/fantasy0xCHAT" },
       ],
     };
   },
