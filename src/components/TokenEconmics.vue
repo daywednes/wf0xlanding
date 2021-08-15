@@ -10,7 +10,7 @@
         <div
           v-for="(about, abouts) in abouts"
           :key="abouts"
-          class="col-lg-6 col-md-6"
+          class="col-lg-3 col-md-6"
         >
           <div class="about-item">
             <img :src="about.img" style="height: 300px; margin: auto" />
@@ -43,20 +43,20 @@ export default {
           img: require("../assets/img/wf0x/token/tk1.png"),
         },
         {
-          title: "Governance",
+          title: "Governance Token",
           desc:
             "Vote for new features and settings of the game to receive special awards",
           icon: "fa fa-laptop",
           img: require("../assets/img/wf0x/token/tk2.png"),
         },
         {
-          title: "Play 2 Earn",
+          title: "Play To Earn Game",
           desc: "Receive tokens via in-game mission and social mining",
           icon: "fa fa-paint-brush",
           img: require("../assets/img/wf0x/token/tk4.png"),
         },
         {
-          title: "Staking",
+          title: "Staking Token",
           desc:
             "Become part of the game by staking tokens in to pools. Pools allow you to yield new items, gain power, and generate new events",
           icon: "fa fa-apple",

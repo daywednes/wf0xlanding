@@ -33,7 +33,7 @@
         </div>
         <div class="col-md-4">
           <img
-            src="../assets/img/wf0x/character/mm.png"
+            src="../assets/img/wf0x/feature/t2.png"
             alt="doctor thumb"
             style="max-height:600px;"
           />

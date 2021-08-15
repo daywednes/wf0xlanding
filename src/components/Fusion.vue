@@ -9,7 +9,7 @@
             <img
               src="../assets/img/wf0x/feature/L4.png"
               alt="screenshot thumb"
-              style="max-height:500px;"
+              style="height:400px;"
             />
           </div>
         </div>
